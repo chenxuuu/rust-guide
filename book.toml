@@ -1,0 +1,31 @@
+[book]
+title = "Rust 实践指南 - A Rust Cookbook 中文版"
+authors = ["zzy"]
+language = "zh"
+description = "Rust 实践指南, rust cookbook 中文版, Rust 实例示例, Rust 编程实战, Rust crate 生态实践, Rust crate 集成应用"
+src = "src"
+multilingual = true
+
+# [build]
+# build-dir = "docs"
+
+[output.html]
+theme = "theme"
+# default-theme = "rust"
+git-repository-url = "https://github.com/zzy/rust-cookbook-zh-cn"
+curly-quotes = true
+mathjax-support = true
+
+[output.html.playpen]
+editable = true
+copy-js = true
+
+[output.html.search]
+limit-results = 20
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 2
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+copy-js = true
