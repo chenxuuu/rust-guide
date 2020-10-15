@@ -142,16 +142,19 @@
 
                     <h1 class="menu-title">{{ book_title }}</h1>
 
-                    {{!-- <div class="right-buttons">
-                        <a href="https://budshome.com/books.html" target="_blank" title="返回书馆" aria-label="返回书馆">
+                    <div class="right-buttons">
+                        {{!-- <a href="https://budshome.com/books.html" target="_blank" title="返回书馆" aria-label="返回书馆">
                             <span>书馆</span>
                         </a>
                         {{#if git_repository_url}}
                         <a href="{{git_repository_url}}" target="_blank" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa {{git_repository_icon}}"></i>
                         </a>
-                        {{/if}}
-                    </div> --}}
+                        {{/if}} --}}
+                        <a href="{{ path_to_root }}print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
                 </div>
 
                 {{#if search_enabled}}

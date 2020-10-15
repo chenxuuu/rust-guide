@@ -6,9 +6,12 @@
 > commit c5f6880ac0c514faf863aa7e86007fda0dd5e0bb - 2019.01.11
 -->
 
-[序言](foreword.md)
-[自序](about.md)
-[介绍](intro.md)
+- [序言](foreword.md)
+- [自序](about.md)
+- [介绍](intro.md)
+
+------
+
 - [环境和工具](env-tools.md)
   - [安装 Rust](env-tools/env.md)
     - [Linux/WSL 或 macOS 环境安装 Rust](env-tools/env/linux-wsl-macos.md)
@@ -18,10 +21,13 @@
     - [Cargo.toml、依赖项管理，以及 Cargo.lock](env-tools/cargo/cargo-toml-dependencies-cargo-lock.md)
     - [项目的构建、运行、调试，以及发布](env-tools/cargo/build-run-debug-release.md)
   - [编辑器及 IDE](env-tools/editor-ide.md)
+
+------
+
 - [算法](algorithms.md)
   - [生成随机值](algorithms/randomness.md)
   - [Vector 排序](algorithms/sorting.md)
-<!-- - [命令行](cli.md)
+- [命令行](cli.md)
   - [参数解析](cli/arguments.md)
   - [ANSI 终端](cli/ansi_terminal.md)
 - [压缩](compression.md)
@@ -80,6 +86,6 @@
   - [客户端](web/clients.md)
     - [请求处理](web/clients/requests.md)
     - [Web API 调用](web/clients/apis.md)
-    - [下载](web/clients/download.md) -->
+    - [下载](web/clients/download.md)
 
 ------
