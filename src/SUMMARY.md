@@ -6,8 +6,18 @@
 > commit c5f6880ac0c514faf863aa7e86007fda0dd5e0bb - 2019.01.11
 -->
 
-[Rust 实践指南](intro.md)
-[关于本书](about.md)
+[序言](foreword.md)
+[自序](about.md)
+[介绍](intro.md)
+- [环境和工具](env-tools.md)
+  - [安装 Rust](env-tools/env.md)
+    - [Linux/WSL 或 macOS 环境安装 Rust](env-tools/env/linux-wsl-macos.md)
+    - [Windows 环境安装 Rust](env-tools/env/windows.md)
+  - [构建工具 Cargo](env-tools/cargo.md)
+    - [使用 Cargo 创建项目](env-tools/cargo/new-project.md)
+    - [Cargo.toml、依赖项管理，以及 Cargo.lock](env-tools/cargo/cargo-toml-dependencies-cargo-lock.md)
+    - [项目的构建、运行、调试，以及发布](env-tools/cargo/build-run-debug-release.md)
+  - [编辑器及 IDE](env-tools/editor-ide.md)
 - [算法](algorithms.md)
   - [生成随机值](algorithms/randomness.md)
   - [Vector 排序](algorithms/sorting.md)
