@@ -21,7 +21,7 @@
 - [算法](algorithms.md)
   - [生成随机值](algorithms/randomness.md)
   - [Vector 排序](algorithms/sorting.md)
-- [命令行](cli.md)
+<!-- - [命令行](cli.md)
   - [参数解析](cli/arguments.md)
   - [ANSI 终端](cli/ansi_terminal.md)
 - [压缩](compression.md)
@@ -80,6 +80,6 @@
   - [客户端](web/clients.md)
     - [请求处理](web/clients/requests.md)
     - [Web API 调用](web/clients/apis.md)
-    - [下载](web/clients/download.md)
+    - [下载](web/clients/download.md) -->
 
 ------
