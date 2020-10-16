@@ -13,9 +13,9 @@
 ------
 
 - [环境和工具](env-tools.md)
-  - [安装 Rust](env-tools/env.md)
-    - [Linux/WSL 或 macOS 环境安装 Rust](env-tools/env/linux-wsl-macos.md)
-    - [Windows 环境安装 Rust](env-tools/env/windows.md)
+  - [安装和卸载](env-tools/env.md)
+    - [Linux/WSL 或 macOS 环境安装和卸载 Rust](env-tools/env/linux-wsl-macos.md)
+    - [Windows 环境安装和卸载 Rust](env-tools/env/windows.md)
   - [构建工具 Cargo](env-tools/cargo.md)
     - [使用 Cargo 创建项目](env-tools/cargo/new-project.md)
     - [Cargo.toml、依赖项管理，以及 Cargo.lock](env-tools/cargo/cargo-toml-dependencies-cargo-lock.md)
@@ -87,5 +87,20 @@
     - [请求处理](web/clients/requests.md)
     - [Web API 调用](web/clients/apis.md)
     - [下载](web/clients/download.md)
+
+------
+
+- [附录](appendix.md)
+  - [附录一：源码编译安装 Rust](appendix/installing-from-source.md)
+  - [附录二：Cargo 进阶](appendix/cargo.md)
+    - [Cargo 清单格式详解](appendix/cargo/manifest.md)
+    - [使用 Cargo 发布自己的 crate](appendix/cargo/publishing.md)
+    - [Cargo 构建脚本](appendix/cargo/build-scripts.md)
+    - [Cargo 外部工具](appendix/cargo/external-tools.md)
+    - [Cargo 常见问题](appendix/cargo/faq.md)
+  - [附录三：Rust 模糊测试](appendix/rust-fuzz.md)
+    - [使用 cargo-fuzz 进行模糊测试](appendix/rust-fuzz/cargo-fuzz.md)
+    - [使用 afl.rs 进行模糊测试](appendix/rust-fuzz/afl-rs.md)
+  - [附录四：书籍构建工具 mdBook](appendix/mdbook.md)
 
 ------
