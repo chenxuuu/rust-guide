@@ -1,9 +1,9 @@
 # 内容介绍
 
 <!--
-> [intro.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/intro.md)
+> [intro.md](https://github.com/zzy/rust-cookbook-zh-cn/blob/master/src/intro.md)
 > <br />
-> commit - a79932c9a624fd17977eaea5df3d5a9600d014f6 - 2018.12.05
+> commit - f3ff22fb959198af70336c27afccab64423fe025 - 2020.09.28
 -->
 
 《Rust 实践指南》是 Rust 程序设计语言的简要实例示例集合：展示了在 Rust 生态系统中，使用各类 crate 来完成常见编程任务的良好实践。

@@ -1,10 +1,14 @@
 # Rust 实践指南
 
 <!--
-> [SUMMARY.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/SUMMARY.md)
+> [SUMMARY.md](https://github.com/zzy/rust-cookbook-zh-cn/blob/master/src/SUMMARY.md)
 > <br />
-> commit c5f6880ac0c514faf863aa7e86007fda0dd5e0bb - 2019.01.11
+> commit 153af113db612a88d6b853ea7ab2d7a86efd7bdb - 2020.09.28
 -->
+
+[封面](index.md)
+
+------
 
 - [序言](foreword.md)
 - [自序](about.md)

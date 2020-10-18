@@ -1,9 +1,9 @@
 # 关于本书
 
 <!--
-> [about.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/about.md)
+> [about.md](https://github.com/zzy/rust-cookbook-zh-cn/blob/master/src/about.md)
 > <br />
-> commit - b61c8e588ad8445de36cd5f28e99232b5f858a41 - 2020.06.01
+> commit - 0c318d378142b76f7f765b3cb48c4f023726862a - 2020.09.27
 -->
 
 ## 目录
