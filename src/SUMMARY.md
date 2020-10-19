@@ -17,9 +17,9 @@
 ------
 
 - [环境和工具](env-tools.md)
-  - [安装和卸载](env-tools/env.md)
-    - [Linux/WSL 或 macOS 环境安装和卸载 Rust](env-tools/env/linux-wsl-macos.md)
-    - [Windows 环境安装和卸载 Rust](env-tools/env/windows.md)
+  - [安装、更新，和卸载](env-tools/installation.md)
+    - [Linux/WSL 或 macOS 环境安装、更新，和卸载 Rust](env-tools/env/linux-wsl-macos.md)
+    - [Windows 环境安装、更新，和卸载 Rust](env-tools/env/windows.md)
   - [构建工具 Cargo](env-tools/cargo.md)
     - [使用 Cargo 创建项目](env-tools/cargo/new-project.md)
     - [Cargo.toml、依赖项管理，以及 Cargo.lock](env-tools/cargo/cargo-toml-dependencies-cargo-lock.md)

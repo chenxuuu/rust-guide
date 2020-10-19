@@ -20,11 +20,11 @@ Rust 可以达到快速、跨平台、低资源占用的目的，目前全世界
 
 具体来讲，本章节内容划分为如下：
 
-  - [安装和卸载](env-tools/env.md)
-    - [Linux/WSL 或 macOS 环境安装和卸载 Rust](env-tools/env/linux-wsl-macos.md)
-    - [Windows 环境安装和卸载 Rust](env-tools/env/windows.md)
-  - [构建工具 Cargo](env-tools/cargo.md)
-    - [使用 Cargo 创建项目](env-tools/cargo/new-project.md)
-    - [Cargo.toml、依赖项管理，以及 Cargo.lock](env-tools/cargo/cargo-toml-dependencies-cargo-lock.md)
-    - [项目的构建、运行、调试，以及发布](env-tools/cargo/build-run-debug-release.md)
-  - [编辑器及 IDE](env-tools/editor-ide.md)
+- [安装、更新，和卸载](env-tools/installation.md)
+  - [Linux/WSL 或 macOS 环境安装、更新，和卸载 Rust](env-tools/env/linux-wsl-macos.md)
+  - [Windows 环境安装、更新，和卸载 Rust](env-tools/env/windows.md)
+- [构建工具 Cargo](env-tools/cargo.md)
+  - [使用 Cargo 创建项目](env-tools/cargo/new-project.md)
+  - [Cargo.toml、依赖项管理，以及 Cargo.lock](env-tools/cargo/cargo-toml-dependencies-cargo-lock.md)
+  - [项目的构建、运行、调试，以及发布](env-tools/cargo/build-run-debug-release.md)
+- [编辑器及 IDE](env-tools/editor-ide.md)
