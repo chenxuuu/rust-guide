@@ -20,7 +20,7 @@ Rust 开发中，笔者对 Visual Studio Code 编辑器比较推荐。运行速�
 
 Visual Studio Code 编辑器的下载、安装，以及使用，网络资料很多，笔者不做涉及。笔者主要从 Rust 相关插件做一个介绍。
 
-#### rls
+#### rust
 
 Rust 官方最早开发支持的 Visual Studio Code 编辑器的 Rust 插件。支持特性丰富：
 
@@ -61,6 +61,10 @@ Rust 官方最早开发支持的 Visual Studio Code 编辑器的 Rust 插件。�
 #### crates
 
 crates.io 中各 crate 依赖项的扩展插件，在 Rust 开发者在使用 Cargo.toml 文件时，crates 插件可以辅助开发者管理依赖项。
+
+#### LLDB VSCode
+
+支持在 vsCode 中调试 Rust，但目前还不成熟，使用体验较差。
 
 #### 其它插件
 
