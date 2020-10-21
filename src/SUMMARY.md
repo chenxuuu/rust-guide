@@ -22,8 +22,7 @@
     - [Windows 环境安装、更新，和卸载 Rust](env-tools/env/windows.md)
   - [构建工具 Cargo](env-tools/cargo.md)
     - [使用 Cargo 创建项目](env-tools/cargo/new-project.md)
-    - [Cargo.toml、依赖项管理，以及 Cargo.lock](env-tools/cargo/cargo-toml-dependencies-cargo-lock.md)
-    - [项目的构建、运行、调试，以及发布](env-tools/cargo/build-run-debug-release.md)
+    - [配置 Cargo 国内镜像源](env-tools/cargo/source-replacement.md)
   - [编辑器及 IDE](env-tools/editor-ide.md)
 
 ------
@@ -98,6 +97,8 @@
   - [附录一：源码编译安装 Rust](appendix/installing-from-source.md)
   - [附录二：Cargo 进阶](appendix/cargo.md)
     - [Cargo 清单格式详解](appendix/cargo/manifest.md)
+    - [Cargo.toml、依赖项管理，以及 Cargo.lock](appendix/cargo/cargo-toml-dependencies-cargo-lock.md)
+    - [项目的构建、运行、调试，以及发布](appendix/cargo/build-run-debug-release.md)
     - [使用 Cargo 发布自己的 crate](appendix/cargo/publishing.md)
     - [Cargo 构建脚本](appendix/cargo/build-scripts.md)
     - [Cargo 外部工具](appendix/cargo/external-tools.md)

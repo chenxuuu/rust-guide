@@ -1,4 +1,4 @@
-# Linux/WSL 或 macOS 环境安装和卸载 Rust
+# Linux/WSL 或 macOS 环境安装、更新，和卸载 Rust
 
 ## 配置 Rust 工具链的国内源（可选）
 
@@ -29,7 +29,7 @@ export RUSTUP_DIST_SERVER=https://mirrors.sjtug.sjtu.edu.cn/rust-static
 export RUSTUP_UPDATE_ROOT=https://mirrors.sjtug.sjtu.edu.cn/rust-static/rustup
 ```
 
-- 上述方式在 shell 窗口重启后，需要重新配置才能生效。也可以将其存储到系统环境的个性化设置文件中，如 `.bashrc` 或 `.profile`。直接编辑你的个性化设置文件，在文件末尾增加上述 2 行。或者执行以下命令：
+- 上述方式仅对当前 shell 窗口有效，在 shell 窗口重启后，需要重新配置才能生效。也可以将其存储到系统环境的个性化设置文件中，如 `.bashrc` 或 `.profile`。直接编辑你的个性化设置文件，在文件末尾增加上述 2 行。或者执行以下命令：
 
 ``` shell
 echo "export RUSTUP_DIST_SERVER=https://mirrors.sjtug.sjtu.edu.cn/rust-static" >> ~/.bashrc
@@ -40,7 +40,7 @@ source ~/.bashrc
 
 当然，本小节国内源的配置，是可选建议。如果你连接境外网站网速尚可，或者你愿意等待，可以采用默认的官方源。
 
-## 官方命令方式安装 Rust
+## 命令方式安装 Rust
 
 官方提供的命令方式安装 Rust，是最为推荐的。其可以安装 rustup、rustc，以及 Cargo 等工具，并主动配置环境变量。
 
@@ -56,7 +56,9 @@ sudo apt install curl, gcc # 或者 g++
 
 #### 下载安装包，并进入安装状态
 
-打开 Rust 官网安装页面：https://www.rust-lang.org/zh-CN/tools/install，复制页面提示你执行的命令，其将适用于你的 Linux/WSL、macOS 环境。
+打开 Rust 官网安装页面：https://www.rust-lang.org/zh-CN/tools/install，复制页面提示你执行的命令，其将适用于你的 Linux/WSL、macOS 环境。如下图所示为 WSL 环境安装 Rust 时，官网页面提示你执行的命令，其和 Linux 环境安装命令是相同的。
+
+![官网提示命令](../../css/env-tools/install-linux.png)
 
 根据机器、操作系统，以及安装软件及其版本等因素的情况，你看到或许和别人稍有差别。比如笔者看到的命令为：
 
@@ -86,11 +88,13 @@ curl https://sh.rustup.rs -sSf | sh
 - 选项 2 是自定义安装配置。在此选项中，你可以自定义安装，比如安装稳定版本（stable）还是每晚发布的版本（nightly），是否更改环境变量等。
 - 选项 3 是取消安装。
 
-`rustup` 工具非常强大，具备不同 Rust 版本管理的功能，因此你可以选择执行选项 1 或 2 任意一个，安装成功后，再通过 `rustup` 通过版本管理的方式增加其它版本。
+`rustup` 工具非常强大，具备不同 Rust 版本管理的功能，因此你可以选择执行选项 1 或 2 任意一个，安装成功后，再使用 `rustup` 工具，通过版本管理的方式增加其它版本。
 
-rustup 工具我们不详细涉及，在此，我们选择默认安装。
+rustup 工具的使用方法，可以使用 `rustup help` 命令方便地查阅，并且没有需要特别注意的细节，因此我们不做详细涉及。
 
-若安装编译报错，请检查是否已经安装软件包 gcc 或 g++。
+在此，我们选择默认安装。
+
+> 若安装编译报错，请检查是否已经安装软件包 gcc 或 g++。
 
 安装完成后，请检查你的 `.profile` 或 `.bashrc` 文件——通常是 `.profile`——末尾是否增加了 Cargo 环境变量。
 
@@ -110,7 +114,7 @@ source $HOME/.cargo/env
 
 ![rustc 检测](../../css/env-tools/rustc.jpg)
 
-如果可以 rustc 的版本信息，则已经安装完成（注意你的日期部分会和笔者的显示不同）。
+如果可以看到 rustc 的版本信息，则已经安装完成（注意你的日期部分会和笔者的显示不同）。
 
 ## Homebrew 工具安装 Rust
 
