@@ -6,7 +6,7 @@
 > commit 153af113db612a88d6b853ea7ab2d7a86efd7bdb - 2020.09.28
 -->
 
-[扉页](index.md)
+[Rust 实践指南（第二版）](index.md)
 
 ------
 
