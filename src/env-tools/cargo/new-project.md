@@ -1,6 +1,6 @@
 # 使用 Cargo 创建项目
 
-要使用 Cargo 启动新项目，请使用`cargo new`:
+使用 Cargo 创建项目，执行 `cargo new` 命令:
 
 ```shell
 $ cargo new hello_world --bin

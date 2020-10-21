@@ -98,11 +98,11 @@ rustup 工具的使用方法，可以使用 `rustup help` 命令方便地查阅�
 
 ## 安装检测
 
-安装完成后，打开命令提示符（CMD）或者 powershell，运行 `rustc --version`，检测你的环境。
+至此，官方命令方式安装 Rust 已经完成。打开命令提示符（CMD）或者 powershell，运行命令 `rustc --version`、`cargo --version`、`rustup --version` 检测你的环境，参考如下图片。
 
-![rustc 检测](../../css/env-tools/rustc.jpg)
+![安装检测](../../css/env-tools/install-test.jpg)
 
-如果可以看到 rustc 的版本信息，则已经安装完成（注意你的日期部分会和笔者的显示不同）。
+如果可以看到 rustc、cargo，以及 rustup 的版本信息，则已经安装完成（注意你的日期部分会和笔者的显示不同）。
 
 ## 更新 Rust
 

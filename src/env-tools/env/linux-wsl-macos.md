@@ -98,24 +98,6 @@ rustup 工具的使用方法，可以使用 `rustup help` 命令方便地查阅�
 
 安装完成后，请检查你的 `.profile` 或 `.bashrc` 文件——通常是 `.profile`——末尾是否增加了 Cargo 环境变量。
 
-#### 安装检测
-
-安装完成后，可以看到如下截图（注意你的日期部分会和笔者的显示不同）：
-
-![安装成功](../../css/env-tools/installed.jpg)
-
-请注意底行的 `To configure your current shell run source $HOME/.cargo/env`，根据提示，直接复制到 shell 窗口执行。
-
-``` shell
-source $HOME/.cargo/env
-```
-
-至此，官方命令方式安装 Rust 已经完成，参考如下图片，检测你的环境。
-
-![rustc 检测](../../css/env-tools/rustc.jpg)
-
-如果可以看到 rustc 的版本信息，则已经安装完成（注意你的日期部分会和笔者的显示不同）。
-
 ## Homebrew 工具安装 Rust
 
 Homebrew 是 macOS（或 Linux）缺失的软件包的管理器。虽然其已经可以使用在 Linux 环境，但主要使用群体还是 macOS 用户。因此，本小节内容也主要是面向 macOS 环境的开发者。
@@ -139,6 +121,24 @@ rustup-init
 ```
 
 但是，brew 安装 rustup 工具后，也会接管 rustup 的更新及卸载。不能再使用 `rustup self update` 更新升级 rustup 工具。
+
+## 安装检测
+
+安装完成后，可以看到如下截图（注意你的日期部分会和笔者的显示不同）：
+
+![安装成功](../../css/env-tools/installed.jpg)
+
+请注意底行的 `To configure your current shell run source $HOME/.cargo/env`，根据提示，直接复制到 shell 窗口执行。
+
+``` shell
+source $HOME/.cargo/env
+```
+
+至此，官方命令方式安装 Rust 已经完成。运行命令 `rustc --version`、`cargo --version`、`rustup --version` 检测你的环境，参考如下图片。
+
+![安装检测](../../css/env-tools/install-test.jpg)
+
+如果可以看到 rustc、cargo，以及 rustup 的版本信息，则已经安装完成（注意你的日期部分会和笔者的显示不同）。
 
 ## 更新 Rust
 
