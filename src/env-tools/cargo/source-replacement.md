@@ -4,7 +4,7 @@ crates.io 是 Rust 官方的 crate 管理仓库，放置在 github 仓库。Carg
 
 对于中国大陆用户，因为网络原因，推荐使用国内镜像源。目前国内 cargo 镜像源有：清华大学源、中国科学技术大学源、上海交通大学源，以及 rustcc 社区源。
 
-Cargo 支持**更换 crates.io 索引源**，通过 `$HOME/.cargo/config` 文件配置。自定义 cargo 源有两种方法，推荐使用第一种：
+Cargo 支持**更换 crates.io 源索引**，通过 `$HOME/.cargo/config` 文件配置。自定义 cargo 源有两种方法，推荐使用第一种：
 
 1. 创建 `$HOME/.cargo/config` 文件（各操作系统及版本均大致相同），然后在 config 文件内写入下述配置内容。其中协议推荐使用 git，但对于 https 和 git 协议，一般各镜像源都支持，并且是可以互换的。如果你所处的环境中不允许使用 git 协议，或者配置 git 协议后不能正常获取和编译 crate，可以换 https 协议再试试。
 

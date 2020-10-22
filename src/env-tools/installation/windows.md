@@ -76,7 +76,7 @@ Microsoft C++ 生成工具下载完成后，请根据提示安装，其耗时较
 
 Microsoft C++ 生成工具安装完成后，运行官网获取的 `rustup-init.exe`。下面我们在命令提示符（CMD）窗口运行 `rustup-init.exe`，如果你喜欢并使用的是 powershell 窗口，其显示信息和操作步骤大抵相同。
 
-> 在此，请读者忽略可爱的粉红色……
+> 在此，请读者忽略来源于网络的可爱的粉红色……
 
 ![命令提示符中运行 rustup-init](../../css/env-tools/rustup-init-cmd.png)
 
