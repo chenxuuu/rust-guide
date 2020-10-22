@@ -33,7 +33,7 @@ Rust 官方最早开发支持的 Visual Studio Code 编辑器的 Rust 插件。�
 - snippets；
 - 构建任务等。
 
-特性众多，功能完善且成熟，但性能有所欠缺。后来 Rust 官方新开了 rust-analyzer 插件项目，并且计划用来替代 rls。
+特性众多，功能完善且成熟，但性能有所欠缺。后来 Rust 官方新开了 rust-analyzer 插件项目，并且计划用来替代 rust 插件。
 
 #### rust-analyzer（推荐）
 

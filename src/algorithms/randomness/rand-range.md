@@ -1,4 +1,4 @@
-## 生成范围内随机数
+### 生成范围内随机数
 
 <!--
 > [algorithms/randomness/rand-range.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/algorithms/randomness/rand-range.md)

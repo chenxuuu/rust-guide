@@ -1,9 +1,9 @@
 # 算法
 
 <!--
-> [algorithms.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/algorithms.md)
+> [algorithms.md](https://github.com/zzy/rust-cookbook-zh-cn/blob/master/src/algorithms.md)
 > <br />
-> commit - 2eee7043988e4289f16b5deca9f3b36e2516362b - 2020.04.18
+> commit - 04f8b1155ec4cb7093c947c2f05766cd768546aa - 2020.09.30
 -->
 
 ## 生成随机值

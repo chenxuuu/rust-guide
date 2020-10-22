@@ -1,4 +1,4 @@
-## 生成自定义类型随机值
+### 生成自定义类型随机值
 
 <!--
 > [algorithms/randomness/rand-custom.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/algorithms/randomness/rand-custom.md)

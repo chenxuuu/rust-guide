@@ -1,9 +1,9 @@
 # Vector 排序
 
 <!--
-> [algorithms/sorting.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/algorithms/sorting.md)
+> [algorithms/sorting.md](https://github.com/zzy/rust-cookbook-zh-cn/blob/master/src/algorithms/sorting.md)
 > <br />
-> commit - c6d6b58835980bd307a5974c6742cedf3cca022c - 2018.09.20
+> commit - 1758f63077836b734be0d62c550403c220056aa2 - 2020.09.06
 -->
 
 {{#include sorting/sort.md}}

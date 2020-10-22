@@ -1,4 +1,4 @@
-## 从一组字母数字字符创建随机密码
+### 从一组字母数字字符创建随机密码
 
 <!--
 > [algorithms/randomness/rand-passwd.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/algorithms/randomness/rand-passwd.md)

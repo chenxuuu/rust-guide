@@ -1,4 +1,4 @@
-## 生成随机数
+### 生成随机数
 
 <!--
 > [algorithms/randomness/rand.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/algorithms/randomness/rand.md)

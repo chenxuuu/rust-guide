@@ -1,4 +1,4 @@
-## 从一组用户定义字符创建随机密码
+### 从一组用户定义字符创建随机密码
 
 <!--
 > [algorithms/randomness/rand-choose.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/algorithms/randomness/rand-choose.md)

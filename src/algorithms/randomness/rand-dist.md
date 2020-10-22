@@ -1,4 +1,4 @@
-## 生成给定分布随机数
+### 生成给定分布随机数
 
 <!--
 > [algorithms/randomness/rand-dist.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/algorithms/randomness/rand-dist.md)
