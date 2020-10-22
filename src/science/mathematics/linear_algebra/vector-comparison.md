@@ -12,7 +12,7 @@
 
 下面的实例按元素方式比较两个浮点型 vector。浮点数的存储通常不精确，因此很难进行精确的比较。但是，[`approx`] crate 中的 [`assert_abs_diff_eq!`] 宏允许方便地比较浮点型元素。要将 `approx` 和 `ndarray` 两个 crate一起使用，必须在 `Cargo.toml` 文件中的 `ndarray` 依赖项添加 `approx` 特性。例如：`ndarray = { version = "0.13", features = ["approx"] }`。
 
-此实例还包含其他所有权示例。在这里，`let z = a + b` 执行后，会销毁 `a` and `b`，然后所有权会转移到 `z`。或者，`let w = &c + &d` 创建一个新的 vector，而不销毁 `c` 或者 `d`，允许以后对它们进行修改。有关其他详细信息，请参见[带有两个数组的二进制运算符][Binary Operators With Two Arrays]。
+此实例还包含其它所有权示例。在这里，`let z = a + b` 执行后，会销毁 `a` and `b`，然后所有权会转移到 `z`。或者，`let w = &c + &d` 创建一个新的 vector，而不销毁 `c` 或者 `d`，允许以后对它们进行修改。有关其它详细信息，请参见[带有两个数组的二进制运算符][Binary Operators With Two Arrays]。
 
 ```rust,edition2018
 use approx::assert_abs_diff_eq;

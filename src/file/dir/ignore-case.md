@@ -10,7 +10,7 @@
 
 在 `/media/` 目录中查找与正则表达模式 `img_[0-9]*.png` 匹配的所有图像文件。
 
-一个自定义 [`MatchOptions`] 结构体被传递给 [`glob_with`] 函数，使全局命令模式下不区分大小写，同时保持其他选项的默认值 [`Default`]。
+一个自定义 [`MatchOptions`] 结构体被传递给 [`glob_with`] 函数，使全局命令模式下不区分大小写，同时保持其它选项的默认值 [`Default`]。
 
 > 译注：`glob` 是 `glob command` 的简写。在 shell 里面，用 `*` 等匹配模式来匹配文件，如：ls src/*.rs。
 

@@ -1,9 +1,9 @@
 ### 从一组字母数字字符创建随机密码
 
 <!--
-> [algorithms/randomness/rand-passwd.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/algorithms/randomness/rand-passwd.md)
+> [algorithms/randomness/rand-passwd.md](https://github.com/zzy/rust-cookbook-zh-cn/blob/master/src/algorithms/randomness/rand-passwd.md)
 > <br />
-> commit - 203b1085212a7b857d9a29bdc6a763515e77e0f9 - 2020.06.08
+> commit - 1758f63077836b734be0d62c550403c220056aa2 - 2020.09.06
 -->
 
 [![rand-badge]][rand] [![cat-os-badge]][cat-os]

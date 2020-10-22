@@ -1,21 +1,25 @@
 ### 生成范围内随机数
 
 <!--
-> [algorithms/randomness/rand-range.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/algorithms/randomness/rand-range.md)
+> [algorithms/randomness/rand-range.md](https://github.com/zzy/rust-cookbook-zh-cn/blob/master/src/algorithms/randomness/rand-range.md)
 > <br />
-> commit - 203b1085212a7b857d9a29bdc6a763515e77e0f9 - 2020.06.08
+> commit - 1758f63077836b734be0d62c550403c220056aa2 - 2020.09.06
 -->
 
 [![rand-badge]][rand] [![cat-science-badge]][cat-science]
 
 使用 [`Rng::gen_range`]，在半开放的 `[0, 10)` 范围内（不包括 `10`）生成一个随机值。
 
+- `Rng::gen_range`：此函数在 `[低位，高位]` 范围内生成一个随机值。此范围为半开放范围，即包括`低位`而不包括`高位`。此函数针对给定范围内仅生成一个样本值的情况进行了优化。另外，此函数为均匀分布类型，如果从相同的范围重复抽样取值，执行速度将会更快。
+- `Uniform`：样本值均匀地分布在两个界限之间的结构体。`Uniform::new` 和 `Uniform::new_inclusive` 构造给定范围内的均匀分布采样；这些函数可能会预先做一些额外的工作，以便更快地对多个值进行采样。**必须特别注意：确保四舍五入不会导致采样值小于（<）低位或者大于等于（>=）高位**。
+- 均匀分布：在概率论和统计学中，均匀分布也叫矩形分布，它是对称概率分布，在相同长度间隔的分布概率是可能相等的。
+
 ```rust,edition2018
 use rand::Rng;
 
 fn main() {
     let mut rng = rand::thread_rng();
-    println!("Integer: {}", rng.gen_range(0, 10));
+    println!("Integer: {}", rng.gen_range(0, 10)); // 半开放范围取随机值，即包括`低位`而不包括`高位`
     println!("Float: {}", rng.gen_range(0.0, 10.0));
 }
 ```

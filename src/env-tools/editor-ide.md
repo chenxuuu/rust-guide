@@ -120,6 +120,6 @@ Sublime 性能极佳，但对 Rust 开发支持方面，插件性能较弱。
 ![IntelliJ 截图](../css/env-tools/intellij-rust-2.png)
 
 - 支持调试 Rust 程序。Windows平台需要MinGW+Rust GNU工具链的配合。
-- 其他小功能。如变量类型提示、文档高亮、Alt + F7 查看代码结构、动态模板、重构等。
+- 其它小功能。如变量类型提示、文档高亮、Alt + F7 查看代码结构、动态模板、重构等。
 
 ![IntelliJ 截图](../css/env-tools/intellij-rust-3.png)
