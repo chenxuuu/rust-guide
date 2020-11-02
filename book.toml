@@ -1,8 +1,8 @@
 [book]
-title = "Rust 实践指南 - A Rust Cookbook 中文版"
+title = "Rust 生态实践指南 - The Guide to Rust Crates"
 authors = ["zzy"]
 language = "zh"
-description = "Rust 实践指南, rust cookbook 中文版, Rust 实例示例, Rust 编程实战, Rust crate 生态实践, Rust crate 集成应用"
+description = "Rust 生态实践指南, Rust crate 集成应用, Rust crate 技术参考手册, Rust 实例示例, Rust 编程实战"
 src = "src"
 multilingual = true
 
@@ -12,7 +12,7 @@ multilingual = true
 [output.html]
 theme = "theme"
 # default-theme = "rust"
-git-repository-url = "https://github.com/zzy/rust-cookbook-deep"
+git-repository-url = "https://github.com/zzy/rust-crate-guide"
 curly-quotes = true
 mathjax-support = true
 
