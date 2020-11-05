@@ -1,11 +1,5 @@
 ## 使用 HTTP range 请求头进行部分下载
 
-<!--
-> [web/clients/download/partial.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/web/clients/download/partial.md)
-> <br />
-> commit dd4efa8dcd8e611326caa01c08db8f227aa909d6 - 2020.06.07
--->
-
 [![reqwest-badge]][reqwest] [![cat-net-badge]][cat-net]
 
 使用 [`reqwest::blocking::Client::head`] 获取响应的[消息主体的大小][Content-Length]（即消息主体内容长度）。

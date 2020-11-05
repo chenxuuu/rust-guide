@@ -1,11 +1,5 @@
 ## 数学
 
-<!--
-> [science/mathematics.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/science/mathematics.md)
-> <br />
-> commit a00ff787ce5e326e27dd7747bd25f8a527f7d97e - 2020.06.07
--->
-
 ## 线性代数
 
 | 实例名称 | Crates | 类别 |

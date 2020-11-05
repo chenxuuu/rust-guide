@@ -1,11 +1,5 @@
 ## 通过匹配多个正则表达式来筛选日志文件
 
-<!--
-> [text/regex/filter-log.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/text/regex/filter-log.md)
-> <br />
-> commit b61c8e588ad8445de36cd5f28e99232b5f858a41 - 2020.06.01
--->
-
 [![regex-badge]][regex] [![cat-text-processing-badge]][cat-text-processing]
 
 读取名为 `application.log` 的文件，并且只输出包含下列内容的行：“version X.X.X”、端口为 443 的 IP 地址（如 “192.168.0.1:443”）、特定警告。

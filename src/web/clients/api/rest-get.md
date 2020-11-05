@@ -1,11 +1,5 @@
 ## 查询 GitHub API
 
-<!--
-> [web/clients/api/rest-get.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/web/clients/api/rest-get.md)
-> <br />
-> commit dd4efa8dcd8e611326caa01c08db8f227aa909d6 - 2020.06.07
--->
-
 [![reqwest-badge]][reqwest] [![serde-badge]][serde] [![cat-net-badge]][cat-net] [![cat-encoding-badge]][cat-encoding]
 
 使用 [`reqwest::get`] 查询 [点赞的用户 API v3](https://docs.github.com/cn/free-pro-team@latest/rest/reference/activity#list-stargazers)，以获取某个 GitHub 项目的所有点赞用户的列表。使用 [`Response::json`] 将响应信息 [`reqwest::Response`] 反序列化为实现了 [`serde::Deserialize`] trait 的 `User` 对象。

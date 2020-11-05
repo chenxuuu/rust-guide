@@ -1,11 +1,5 @@
 # 文本处理
 
-<!--
-> [os.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/text.md)
-> <br />
-> commit f1ad9ad44c355d12b7759dca2f700f254ca86114 - 2019.04.13
--->
-
 ## 正则表达式
 
 | 实例名称 | Crates | 类别 |

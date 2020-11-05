@@ -1,11 +1,5 @@
 ## （反）序列化矩阵
 
-<!--
-> [science/mathematics/linear_algebra/deserialize-matrix.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/science/mathematics/linear_algebra/deserialize-matrix.md)
-> <br />
-> commit 019c0a0d2cb2ffde562da4c466d090f5854c7995 - 2020.06.14
--->
-
 [![ndarray-badge]][ndarray] [![cat-science-badge]][cat-science]
 
 本实例实现将矩阵序列化为 JSON，以及从 JSON 反序列化出矩阵。序列化由 [`serde_json::to_string`] 处理，[`serde_json::from_str`] 则执行反序列化。

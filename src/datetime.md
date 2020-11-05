@@ -1,11 +1,5 @@
 # 日期及时间
 
-<!--
-> [datetime.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/datetime.md)
-> <br />
-> commit 97dabe59ae705bf6a2aaebbcd1d189ec2a83f98b - 2018.07.11
--->
-
 ## 期间和计算
 
 | 实例名称 | Crates | 类别 |

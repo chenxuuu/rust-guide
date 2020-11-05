@@ -1,11 +1,5 @@
 ## 从 MediaWiki 标记页面提取所有唯一性链接
 
-<!--
-> [web/scraping/unique.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/web/scraping/unique.md)
-> <br />
-> commit dd4efa8dcd8e611326caa01c08db8f227aa909d6 - 2020.06.07
--->
-
 [![reqwest-badge]][reqwest] [![regex-badge]][regex] [![cat-net-badge]][cat-net]
 
 使用 [`reqwest::get`] 获取 MediaWiki 页面的源代码，然后使用 [`Regex::captures_iter`] 查找内部和外部链接的所有条目。使用智能指针 [`Cow`] 可以提供对借用数据的不可变引用，避免分配过多的[`字符串`][`String`]。

@@ -1,11 +1,5 @@
 # 生成随机值
 
-<!--
-> [algorithms/randomness.md](https://github.com/zzy/rust-cookbook-zh-cn/blob/master/src/algorithms/randomness.md)
-> <br />
-> commit - cdc6b03595e07e0e67df9de9e88ebcd6bfde28a5 - 2020.09.06
--->
-
 ## crate 介绍
 
 ### rand

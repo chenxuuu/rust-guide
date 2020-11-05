@@ -1,11 +1,5 @@
 ## Vector 范数
 
-<!--
-> [science/mathematics/linear_algebra/vector-norm.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/science/mathematics/linear_algebra/vector-norm.md)
-> <br />
-> commit b61c8e588ad8445de36cd5f28e99232b5f858a41 - 2020.06.01
--->
-
 [![ndarray-badge]][ndarray]
 
 这个实例展示了 [`Array1`] 类型、[`ArrayView1`] 类型、[`fold`] 方法，以及 [`dot`] 方法在计算给定 vector 的 [l1] 和 [l2] 范数时的用法。

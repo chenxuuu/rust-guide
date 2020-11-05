@@ -1,11 +1,5 @@
 ## 下载文件到临时目录
 
-<!--
-> [web/clients/download/basic.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/web/clients/download/basic.md)
-> <br />
-> commit dd4efa8dcd8e611326caa01c08db8f227aa909d6 - 2020.06.07
--->
-
 [![reqwest-badge]][reqwest] [![tempdir-badge]][tempdir] [![cat-net-badge]][cat-net] [![cat-filesystem-badge]][cat-filesystem]
 
 使用 [`tempfile::Builder`] 创建一个临时目录，并使用 [`reqwest::get`] 通过 HTTP 协议异步下载文件。

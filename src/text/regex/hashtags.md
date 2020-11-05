@@ -1,11 +1,5 @@
 ## 从文本提取标签元素唯一的列表
 
-<!--
-> [text/regex/hashtags.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/text/regex/hashtags.md)
-> <br />
-> commit b61c8e588ad8445de36cd5f28e99232b5f858a41 - 2020.06.01
--->
-
 [![regex-badge]][regex] [![lazy_static-badge]][lazy_static] [![cat-text-processing-badge]][cat-text-processing]
 
 本实例展示从文本中提取、排序和去除标签列表的重复元素。

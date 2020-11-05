@@ -1,11 +1,5 @@
 ## 使用 GitHub API 创建和删除 Gist
 
-<!--
-> [web/clients/api/rest-post.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/web/clients/api/rest-post.md)
-> <br />
-> commit dd4efa8dcd8e611326caa01c08db8f227aa909d6 - 2020.06.07
--->
-
 [![reqwest-badge]][reqwest] [![serde-badge]][serde] [![cat-net-badge]][cat-net] [![cat-encoding-badge]][cat-encoding]
 
 使用 [`Client::post`] 创建一个 POST 请求提交到 GitHub [gists API v3](https://docs.github.com/cn/free-pro-team@latest/rest/reference/gists) 接口的 gist，并使用 [`Client::delete`] 使用 DELETE 请求删除它。

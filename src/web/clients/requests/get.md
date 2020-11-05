@@ -1,11 +1,5 @@
 ## 发出 HTTP GET 请求
 
-<!--
-> [web/clients/requests/get.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/web/clients/requests/get.md)
-> <br />
-> commit dd4efa8dcd8e611326caa01c08db8f227aa909d6 - 2020.06.07
--->
-
 [![reqwest-badge]][reqwest] [![cat-net-badge]][cat-net]
 
 解析提供的 URL，并使用 [`reqwest::blocking::get`] 发起同步 HTTP GET 请求。打印获取的响应消息状态和标头 [`reqwest::blocking::Response`]。使用 [`read_to_string`] 将 HTTP 响应消息主体正文读入到指派的字符串 [`String`]。

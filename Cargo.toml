@@ -1,7 +1,7 @@
 [package]
-name = "rust-cookbook-zh-cn"
+name = "rust-crate-guide"
 version = "1.0.0"
-authors = ["Zhang Zhongyu <linshi@budshome.com>", "Brian Anderson <banderson@mozilla.com>", "Andrew Gauger <andygauge@gmail.com>"]
+authors = ["Zhang Zhongyu <linshi@budshome.com>"]
 edition = "2018"
 license = "MIT/Apache-2.0"
 publish = false

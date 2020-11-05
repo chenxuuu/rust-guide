@@ -1,11 +1,5 @@
 ## 检查 API 资源是否存在
 
-<!--
-> [web/clients/api/rest-head.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/web/clients/api/rest-head.md)
-> <br />
-> commit 67329add00792d6cfc04b5d4cfb073a5fb12ba53 - 2020.06.14
--->
-
 [![reqwest-badge]][reqwest] [![cat-net-badge]][cat-net]
 
 使用消息标头 HEAD 请求（([`Client::head`]）查询 GitHub 用户端接口，然后检查响应代码以确定是否成功。这是一种无需接收 HTTP 响应消息主体，即可快速查询 rest 资源的方法。使用 [`ClientBuilder::timeout`] 方法配置的 [`reqwest::Client`] 结构体将确保请求不会超时。

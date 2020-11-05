@@ -1,11 +1,5 @@
 ## 矩阵相加
 
-<!--
-> [science/mathematics/linear_algebra/add-matrices.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/science/mathematics/linear_algebra/add-matrices.md)
-> <br />
-> commit b61c8e588ad8445de36cd5f28e99232b5f858a41 - 2020.06.01
--->
-
 [![ndarray-badge]][ndarray] [![cat-science-badge]][cat-science]
 
 使用 [`ndarray::arr2`] 创建两个二维（2-D）矩阵，并按元素方式求和。

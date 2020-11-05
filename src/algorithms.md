@@ -1,11 +1,5 @@
 # 算法
 
-<!--
-> [algorithms.md](https://github.com/zzy/rust-cookbook-zh-cn/blob/master/src/algorithms.md)
-> <br />
-> commit - 04f8b1155ec4cb7093c947c2f05766cd768546aa - 2020.09.30
--->
-
 ## 生成随机值
 
 | 实例名称 | Crates | 类别 |

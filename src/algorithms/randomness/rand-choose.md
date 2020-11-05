@@ -1,11 +1,5 @@
 ### 从一组用户定义字符创建随机密码
 
-<!--
-> [algorithms/randomness/rand-choose.md](https://github.com/zzy/rust-cookbook-zh-cn/blob/master/src/algorithms/randomness/rand-choose.md)
-> <br />
-> commit - 1758f63077836b734be0d62c550403c220056aa2 - 2020.09.06
--->
-
 [![rand-badge]][rand] [![cat-os-badge]][cat-os]
 
 使用用户自定义的字节字符串，使用 [`gen_range`] 函数，随机生成一个给定长度的 ASCII 字符串。

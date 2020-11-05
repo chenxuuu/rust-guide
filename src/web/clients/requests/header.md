@@ -1,11 +1,5 @@
 ## 为 REST 请求设置自定义消息标头和 URL 参数
 
-<!--
-> [web/clients/requests/header.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/web/clients/requests/header.md)
-> <br />
-> commit 203b1085212a7b857d9a29bdc6a763515e77e0f9 - 2020.06.08
--->
-
 [![reqwest-badge]][reqwest] [![hyper-badge]][hyper] [![url-badge]][url] [![cat-net-badge]][cat-net]
 
 本实例中为 HTTP GET 请求设置标准的和自定义的 HTTP 消息标头以及 URL 参数。使用 [`hyper::header!`] 宏创建 `XPoweredBy` 类型的自定义消息标头。

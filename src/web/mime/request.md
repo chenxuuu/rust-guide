@@ -1,11 +1,5 @@
 ## 解析 HTTP 响应的 MIME 类型
 
-<!--
-> [web/mime/request.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/web/mime/request.md)
-> <br />
-> commit dd4efa8dcd8e611326caa01c08db8f227aa909d6 - 2020.06.07
--->
-
 [![reqwest-badge]][reqwest] [![mime-badge]][mime] [![cat-net-badge]][cat-net] [![cat-encoding-badge]][cat-encoding]
 
 当从 `reqwest` 接收到 HTTP 响应时，[MIME 类型][MIME type]或媒体类型可以在实体头部的 [Content-Type] 标头中找到。[`reqwest::header::HeaderMap::get`] 方法将标头检索为结构体 [`reqwest::header::HeaderValue`]，结构体可以转换为字符串。然后 `mime` crate 可以解析它，生成 [`mime::Mime`] 值。

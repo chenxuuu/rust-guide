@@ -1,11 +1,5 @@
 ## 自定义`结构体`并实现 `FromStr` trait
 
-<!--
-> [text/string_parsing/from_str.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/text/string_parsing/from_str.md)
-> <br />
-> commit b61c8e588ad8445de36cd5f28e99232b5f858a41 - 2020.06.01
--->
-
 [![std-badge]][std] [![cat-text-processing-badge]][cat-text-processing]
 
 本实例中，创建一个自定义结构体 `RGB` 并实现 `FromStr` trait，以将提供的颜色十六进制代码转换为其 RGB 颜色代码。

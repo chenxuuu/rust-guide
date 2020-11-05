@@ -1,11 +1,5 @@
 ## 标量、vector、矩阵相乘
 
-<!--
-> [science/mathematics/linear_algebra/multiply-scalar-vector-matrix.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/science/mathematics/linear_algebra/multiply-scalar-vector-matrix.md)
-> <br />
-> commit b61c8e588ad8445de36cd5f28e99232b5f858a41 - 2020.06.01
--->
-
 [![ndarray-badge]][ndarray] [![cat-science-badge]][cat-science]
 
 使用 [`ndarray::arr1`] 创建一维（1-D）数组（vector），使用 [`ndarray::arr2`] 创建二维（2-D）数组（矩阵）。

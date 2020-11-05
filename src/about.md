@@ -1,11 +1,5 @@
 # 关于本书
 
-<!--
-> [about.md](https://github.com/zzy/rust-cookbook-zh-cn/blob/master/src/about.md)
-> <br />
-> commit - 0c318d378142b76f7f765b3cb48c4f023726862a - 2020.09.27
--->
-
 ## 目录
 
 - [指南目标读者](#指南目标读者)

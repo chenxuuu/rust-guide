@@ -1,18 +1,12 @@
 # Rust 实践指南
 
-<!--
-> [SUMMARY.md](https://github.com/zzy/rust-cookbook-zh-cn/blob/master/src/SUMMARY.md)
-> <br />
-> commit 912c0d11ec2b4ef076178e2c7d7d1e9993b15251 - 2020.10.21
--->
-
 [Rust 实践指南（第二版）](index.md)
 
 ------
 
-- [序言](foreword.md)
-- [自序](about.md)
-- [介绍](intro.md)
+- [前言](foreword.md)
+<!-- - [自序](about.md)
+- [前言](intro.md) -->
 
 ------
 

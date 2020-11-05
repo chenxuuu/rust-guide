@@ -1,11 +1,5 @@
 ## 检查网页死链
 
-<!--
-> [web/scraping/broken.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/web/scraping/broken.md)
-> <br />
-> commit 203b1085212a7b857d9a29bdc6a763515e77e0f9 - 2020.06.08
--->
-
 [![reqwest-badge]][reqwest] [![select-badge]][select] [![url-badge]][url] [![cat-net-badge]][cat-net]
 
 调用 `get_base_url` 方法检索 `base URL`，如果 HTML 文档有 `base` 标签，从 `base` 标记获取 href [`attr`]，初始 URL 的默认值是 [`Position::BeforePath`]。

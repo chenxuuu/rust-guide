@@ -1,11 +1,5 @@
 # Web 编程
 
-<!--
-> [web.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/web.md)
-> <br />
-> commit dd4efa8dcd8e611326caa01c08db8f227aa909d6 - 2020.06.07
--->
-
 ## 抓取网页
 
 | 实例名称 | Crates | 类别 |

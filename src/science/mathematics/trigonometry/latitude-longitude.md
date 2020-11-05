@@ -1,11 +1,5 @@
 ## 地球上两点之间的距离
 
-<!--
-> [science/mathematics/trigonometry/latitude-longitude.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/science/mathematics/trigonometry/latitude-longitude.md)
-> <br />
-> commit b61c8e588ad8445de36cd5f28e99232b5f858a41 - 2020.06.01
--->
-
 [![std-badge]][std]
 
 默认情况下，Rust 提供了数学上的[浮点数方法][float methods]，例如：三角函数、平方根、弧度和度数之间的转换函数等。

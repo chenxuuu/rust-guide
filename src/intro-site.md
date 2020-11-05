@@ -1,11 +1,5 @@
 # Rust 实践指南
 
-<!--
-> [intro.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/intro.md)
-> <br />
-> commit - a79932c9a624fd17977eaea5df3d5a9600d014f6 - 2018.12.05
--->
-
 《Rust 实践指南》是 Rust 程序设计语言（[Rust 2018 简体中文版文档](https://rust-lang.budshome.com)）的简要实例示例集合：展示了在 Rust 生态系统中，使用各类 crate 来完成常见编程任务的良好实践。
 
 了解更多关于《Rust 实践指南》一书的信息，请阅读[关于本书](about.md)，包括：如何阅读本书的提示、如何使用实例示例，以及关于注释的约定。
@@ -24,8 +18,8 @@
 首先，从 git 克隆《Rust 实践指南》并进入目录：
 
 ```
-git clone https://github.com/zzy/rust-cookbook-zh-cn.git
-cd rust-cookbook-zh-cn
+git clone https://github.com/zzy/rust-crate-guide.git
+cd rust-crate-guide
 ```
 
 《Rust 实践指南》使用 `mdBook`（[中文文档](https://mdbook.budshome.com)）构建，所以需要通过 `Cargo`（[中文文档](https://cargo.budshome.com)）安装它：

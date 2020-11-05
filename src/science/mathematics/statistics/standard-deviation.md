@@ -1,11 +1,5 @@
 ### 计算标准偏差
 
-<!--
-> [science/mathematics/statistics/standard-deviation.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/science/mathematics/statistics/standard-deviation.md)
-> <br />
-> commit b61c8e588ad8445de36cd5f28e99232b5f858a41 - 2020.06.01
--->
-
 [![std-badge]][std] [![cat-science-badge]][cat-science]
 
 本实例计算一组测量值的标准偏差和 z 分数（z-score）。

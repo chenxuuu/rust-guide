@@ -1,11 +1,5 @@
 ### 集中趋势度量
 
-<!--
-> [science/mathematics/statistics/central-tendency.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/science/mathematics/statistics/central-tendency.md)
-> <br />
-> commit b61c8e588ad8445de36cd5f28e99232b5f858a41 - 2020.06.01
--->
-
 [![std-badge]][std] [![cat-science-badge]][cat-science]
 
 本节实例计算 Rust 数组中包含的数据集的集中趋势度量。对于一个空的数据集，可能没有平均数、中位数或众数去计算，因此每个函数都返回 [`Option`] ，由调用者处理。

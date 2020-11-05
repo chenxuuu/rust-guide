@@ -1,11 +1,5 @@
 ## 收集 Unicode 字符
 
-<!--
-> [text/string_parsing/graphemes.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/text/string_parsing/graphemes.md)
-> <br />
-> commit b61c8e588ad8445de36cd5f28e99232b5f858a41 - 2020.06.01
--->
-
 [![unicode-segmentation-badge]][`unicode-segmentation`] [![cat-text-processing-badge]][cat-text-processing]
 
 使用 [`unicode-segmentation`] crate 中的 [`UnicodeSegmentation::graphemes`] 函数，从 UTF-8 字符串中收集个别的 Unicode 字符。

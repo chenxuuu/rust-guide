@@ -1,11 +1,5 @@
 # 编码
 
-<!--
-> [encoding.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/encoding.md)
-> <br />
-> commit 7a06c79008f3998fc03d23c56aee885ddcf366ac - 2020.05.05
--->
-
 ## 字符集
 
 | 实例名称 | Crates | 类别 |

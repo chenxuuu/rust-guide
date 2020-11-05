@@ -1,11 +1,5 @@
 # 错误处理
 
-<!--
-> [errors.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/errors.md)
-> <br />
-> commit 97dabe59ae705bf6a2aaebbcd1d189ec2a83f98b - 2018.07.11
--->
-
 ## 处理错误变量
 
 | 实例名称 | Crates | 类别 |

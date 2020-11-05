@@ -1,11 +1,5 @@
 # 操作系统
 
-<!--
-> [os.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/os.md)
-> <br />
-> commit bba147f18531934c904b1c5afaed3e6550b1c1c0 - 2020.06.14
--->
-
 ## 外部命令
 
 | 实例名称 | Crates | 类别 |

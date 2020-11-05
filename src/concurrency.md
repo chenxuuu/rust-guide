@@ -1,11 +1,5 @@
 # 并发/并行
 
-<!--
-> [concurrency.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/concurrency.md)
-> <br />
-> commit 3c32c84475a2d99aa1d1b2d5d2e480aeada47293 - 2020.06.07
--->
-
 ## 显式线程
 
 | 实例名称 | Crates | 类别 |

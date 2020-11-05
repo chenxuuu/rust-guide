@@ -1,11 +1,5 @@
 ## 从文件名获取 MIME 类型
 
-<!--
-> [web/mime/filename.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/web/mime/filename.md)
-> <br />
-> commit b61c8e588ad8445de36cd5f28e99232b5f858a41 - 2020.06.01
--->
-
 [![mime-badge]][mime] [![cat-encoding-badge]][cat-encoding]
 
 下面的实例展示如何使用 [mime] crate 从给定的文件名返回正确的 MIME 类型。程序将检查文件扩展名并与已知的 MIME 类型列表匹配，返回值为 [`mime:Mime`]。

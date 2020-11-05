@@ -1,11 +1,5 @@
 ## Vector 比较
 
-<!--
-> [science/mathematics/linear_algebra/vector-comparison.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/science/mathematics/linear_algebra/vector-comparison.md)
-> <br />
-> commit b61c8e588ad8445de36cd5f28e99232b5f858a41 - 2020.06.01
--->
-
 [![ndarray-badge]][ndarray]
 
 [ndarray] crate 支持多种创建数组的方法——此实例使用 `from` 从 `std::Vec` 创建数组 [`ndarray::Array`]。然后，对数组以元素方式求和。

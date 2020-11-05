@@ -1,11 +1,5 @@
 ## 文本模式替换
 
-<!--
-> [text/regex/replace.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/text/regex/replace.md)
-> <br />
-> commit b61c8e588ad8445de36cd5f28e99232b5f858a41 - 2020.06.01
--->
-
 [![regex-badge]][regex] [![lazy_static-badge]][lazy_static] [![cat-text-processing-badge]][cat-text-processing]
 
 将所有出现的国际标准 ISO 8601 日期模式 *YYYY-MM-DD* 替换为具有斜杠的等效美式英语日期模式。例如： `2013-01-15` 替换为 `01/15/2013`。

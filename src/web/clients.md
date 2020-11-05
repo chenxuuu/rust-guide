@@ -1,11 +1,5 @@
 ## 客户端
 
-<!--
-> [web/clients.md](https://github.com/rust-lang-nursery/rust-cookbook/blob/master/src/web/clients.md)
-> <br />
-> commit dd4efa8dcd8e611326caa01c08db8f227aa909d6 - 2020.06.07
--->
-
 ### 请求处理
 
 | 实例名称 | Crates | 类别 |
