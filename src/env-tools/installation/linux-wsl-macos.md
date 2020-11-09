@@ -1,4 +1,4 @@
-# Linux/WSL 或 macOS 环境安装、更新，和卸载 Rust
+# Linux/WSL/macOS 配置 Rust 环境
 
 ## 配置 Rust 工具链的国内源（可选）
 

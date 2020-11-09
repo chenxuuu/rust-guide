@@ -1,4 +1,4 @@
-# 安装，更新，和卸载 Rust
+# 环境配置
 
 Linux 和 WSL 操作系统环境中，安装 Rust 的过程大抵相同，所以我们放在同一章节来展示。
 
@@ -8,5 +8,5 @@ Linux 和 WSL 操作系统环境中，安装 Rust 的过程大抵相同，所以
 
 而在 Windows 操作系统环境中，可以使用 Rust 官方提供的 `rustup-init` 工具，也可以使用 Windows 下的软件包管理器 Chocolatey 或 Scoop。另外，Windows 操作系统环境中安装 Rust，需要下载 Microsoft C++ 生成工具。
 
-- [Linux/WSL 或 macOS 环境安装、更新，和卸载 Rust](installation/linux-wsl-macos.md)
-- [Windows 环境安装、更新，和卸载 Rust](installation/windows.md)
+- [Linux/WSL/macOS 配置 Rust 环境](installation/linux-wsl-macos.md)
+- [Windows 配置 Rust 环境](installation/windows.md)

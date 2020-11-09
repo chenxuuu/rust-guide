@@ -1,4 +1,3 @@
 fn main() {
-    println!("This program does nothing.");
-    println!("See documentation at https://github.com/rust-lang-nursery/rust-cookbook");
+    println!("请访问 https://github.com/zzy/rust-crate-guide 查阅文档。");
 }

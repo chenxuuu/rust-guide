@@ -1,4 +1,4 @@
-# Windows 环境安装、更新，和卸载 Rust
+# Windows 配置 Rust 环境
 
 ## 配置 Rust 工具链的国内源（可选）
 
