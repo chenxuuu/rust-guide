@@ -12,7 +12,7 @@ multilingual = true
 [output.html]
 theme = "theme"
 # default-theme = "rust"
-git-repository-url = "https://github.com/zzy/crate-guide"
+git-repository-url = "https://github.com/zzy/rust-crate-guide"
 curly-quotes = true
 mathjax-support = true
 

@@ -1,4 +1,4 @@
-# Rust 生态实践指南
+# 简介
 
 《Rust 生态实践指南》是 Rust 程序设计语言（[Rust 2018 简体中文版文档](https://rust-lang.budshome.com)）的简要实例示例集合：展示了在 Rust 生态系统中，使用各类 crate 来完成常见编程任务的良好实践。
 
@@ -18,8 +18,8 @@
 首先，从 git 克隆《Rust 生态实践指南》并进入目录：
 
 ```
-git clone https://github.com/zzy/crate-guide.git
-cd crate-guide
+git clone https://github.com/zzy/rust-crate-guide.git
+cd rust-crate-guide
 ```
 
 《Rust 生态实践指南》使用 `mdBook`（[中文文档](https://mdbook.budshome.com)）构建，所以需要通过 `Cargo`（[中文文档](https://cargo.budshome.com)）安装它：
