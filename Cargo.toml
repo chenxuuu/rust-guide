@@ -1,5 +1,5 @@
 [package]
-name = "rust-crate-guide"
+name = "crate-guide"
 version = "1.0.0"
 authors = ["Zhang Zhongyu <linshi@budshome.com>"]
 edition = "2018"
