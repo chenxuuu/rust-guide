@@ -20,10 +20,10 @@ Rust 可以达到快速、跨平台、低资源占用的目的，目前全世界
 
 具体来讲，本章节内容划分为如下：
 
-- [安装、更新，和卸载](env-tools/installation.md)
-  - [Linux/WSL/macOS 配置 Rust 环境](env-tools/installation/linux-wsl-macos.md)
-  - [Windows 配置 Rust 环境](env-tools/installation/windows.md)
-- [构建工具 Cargo](env-tools/cargo.md)
-  - [使用 Cargo 创建项目](env-tools/cargo/new-project.md)
-  - [配置 Cargo 国内镜像源](env-tools/cargo/source-replacement.md)
-- [编辑器及 IDE](env-tools/editor-ide.md)
+- [安装、更新，和卸载](intro/env-tools/installation.md)
+  - [Linux/WSL/macOS 配置 Rust 环境](intro/env-tools/installation/linux-wsl-macos.md)
+  - [Windows 配置 Rust 环境](intro/env-tools/installation/windows.md)
+- [构建工具 Cargo](intro/env-tools/cargo.md)
+  - [使用 Cargo 创建项目](intro/env-tools/cargo/new-project.md)
+  - [配置 Cargo 国内镜像源](intro/env-tools/cargo/source-replacement.md)
+- [编辑器及 IDE](intro/env-tools/editor-ide.md)

@@ -39,29 +39,29 @@ Rust 官方最早开发支持的 Visual Studio Code 编辑器的 Rust 插件。�
 
 目前，Visual Studio Code 编辑器下最好的 RLS 服务器插件，提供 rls 插件的大部分功能外，还支持以下特性：
 
-![语法高亮](../css/env-tools/rust-analyzer-1.png)
+![语法高亮](../css/intro/env-tools/rust-analyzer-1.png)
 
 - workspace 符号查找；
 - 当前文档符号搜索；
 - 输入辅助；
 
-![语法高亮](../css/env-tools/rust-analyzer-2.png)
+![语法高亮](../css/intro/env-tools/rust-analyzer-2.png)
 
 - 代码辅助；
 - 结构体代码辅助；
 - 自动添加缺失 trait 成员方法；
 
-![语法高亮](../css/env-tools/rust-analyzer-3.png)
+![语法高亮](../css/intro/env-tools/rust-analyzer-3.png)
 
 - 路径导入；
 - 改变函数可见性；
 
-![语法高亮](../css/env-tools/rust-analyzer-4.png)
+![语法高亮](../css/intro/env-tools/rust-analyzer-4.png)
 
 - 填充模式匹配分支；
 - Magic 填充等。
 
-![语法高亮](../css/env-tools/rust-analyzer-5.png)
+![语法高亮](../css/intro/env-tools/rust-analyzer-5.png)
 
 并且，rust-analyzer 插件相较于 rls 插件，性能具有很大优势。
 
@@ -73,11 +73,11 @@ Rust 官方最早开发支持的 Visual Studio Code 编辑器的 Rust 插件。�
 
 - 语法高亮
 
-![语法高亮](../css/env-tools/even-toml-1.png)
+![语法高亮](../css/intro/env-tools/even-toml-1.png)
 
 - 代码格式化
 
-![语法高亮](../css/env-tools/even-toml-2.png)
+![语法高亮](../css/intro/env-tools/even-toml-2.png)
 
 #### crates
 
@@ -85,11 +85,11 @@ crates.io 中各 crate 依赖项的扩展插件，在 Rust 开发者在使用 Ca
 
 - 更新单个依赖
 
-![语法高亮](../css/env-tools/crates-1.png)
+![语法高亮](../css/intro/env-tools/crates-1.png)
 
 - 更新所有依赖
 
-![语法高亮](../css/env-tools/crates-2.png)
+![语法高亮](../css/intro/env-tools/crates-2.png)
 
 #### LLDB VSCode
 
@@ -111,15 +111,15 @@ Sublime 性能极佳，但对 Rust 开发支持方面，插件性能较弱。
 
 功能强大，特性丰富的 IDE 巨头 Eclipse 和 IntelliJ，也对 Rust 开发非常热心，目前都有专门针对 Rust IDE 的独立项目。
 
-![IntelliJ 截图](../css/env-tools/intellij-rust-1.png)
+![IntelliJ 截图](../css/intro/env-tools/intellij-rust-1.png)
 
 除了基本的代码高亮、格式化、自动完成、错误提示外，最重要的特性有这几个：
 
 - 代码跳转支持标准库和依赖的第三方库（神器，学 Rust 必需）。比如我们正在学 Vec，写了个 Vec::new()，既能跳到 Vec 这个 struct 的定义，也能跳到 new 函数的定义，看到对应的实现。IntelliJ Rust 同样支持通用的跳转和查找的快捷键，如双击 Shift 查找所有符号、Ctrl + N 查找类型（struct 和 trait）、Alt + F7 查找用处、Ctrl + Alt + B 查找实现（包括实现 trait 的 struct 和所有 impl 块）等。
 
-![IntelliJ 截图](../css/env-tools/intellij-rust-2.png)
+![IntelliJ 截图](../css/intro/env-tools/intellij-rust-2.png)
 
 - 支持调试 Rust 程序。Windows平台需要MinGW+Rust GNU工具链的配合。
 - 其它小功能。如变量类型提示、文档高亮、Alt + F7 查看代码结构、动态模板、重构等。
 
-![IntelliJ 截图](../css/env-tools/intellij-rust-3.png)
+![IntelliJ 截图](../css/intro/env-tools/intellij-rust-3.png)
