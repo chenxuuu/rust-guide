@@ -22,10 +22,10 @@ Rust 可以达到快速、跨平台、低资源占用的目的，目前全世界
 
 具体来讲，本章节内容划分为如下：
 
-- [环境准备](env.md)
-  - [Linux/WSL/macOS 配置 Rust 环境](env/linux-wsl-macos.md)
-  - [Windows 配置 Rust 环境](env/windows.md)
-- [构建工具 Cargo](cargo.md)
-  - [使用 Cargo 创建项目](cargo/new-project.md)
-  - [配置 Cargo 国内镜像源](cargo/source-replacement.md)
-- [编辑器及 IDE](editor-ide.md)
+- [环境准备](intro/env.md)
+  - [Linux/WSL/macOS 配置 Rust 环境](intro/env/linux-wsl-macos.md)
+  - [Windows 配置 Rust 环境](intro/env/windows.md)
+- [构建工具 Cargo](intro/cargo.md)
+  - [使用 Cargo 创建项目](intro/cargo/new-project.md)
+  - [配置 Cargo 国内镜像源](intro/cargo/source-replacement.md)
+- [编辑器及 IDE](intro/editor-ide.md)
