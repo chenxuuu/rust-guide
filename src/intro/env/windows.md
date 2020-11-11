@@ -14,7 +14,7 @@
 
 打开 `https://cargo.budshome.com/reference/source-replacement.html#注册表源`，复制并在浏览器打开上海交通大学镜像域名 `https://mirrors.sjtug.sjtu.edu.cn`（不要复制后面的子目录地址 `/git/crates.io-index`）。
 
-![rust 国内源](../../../css/intro/env-tools/rust-static.png)
+![rust 国内源](../../../css/intro/rust-static.png)
 
 - 点击`镜像/反代列表`标签，输入 `rust`；
 - 在搜索结果中，可以看到镜像名 `rust-static`，其储存了 Rust 的工具链及 rustup 本身的镜像。
@@ -42,11 +42,11 @@ $env:RUSTUP_UPDATE_ROOT=https://mirrors.sjtug.sjtu.edu.cn/rust-static/rustup
 
 右键点击“此电脑”或者“我的电脑” -> 点击“高级系统设置” -> 点击“环境变量”，打开环境变量设置窗口。如下图 1，2，3 标记处所示。
 
-![打开环境变量设置窗口](../../../css/intro/env-tools/my-computer-right-click.jpg)
+![打开环境变量设置窗口](../../../css/intro/my-computer-right-click.jpg)
 
 在“用户变量”或者“系统变量”区域（选其一即可），点击“新建”按钮，设置用户或系统的环境变量。分别增加“变量名”为 `RUSTUP_DIST_SERVER` 和 `RUSTUP_UPDATE_ROOT` 2 个变量，前者“变量值”为 `https://mirrors.sjtug.sjtu.edu.cn/rust-static`，后者“变量值”为 `https://mirrors.sjtug.sjtu.edu.cn/rust-static/rustup`。如下图 4，5 标记处所示，示例图为 `RUSTUP_DIST_SERVER` 变量值的填写，不要忘记增加变量 `RUSTUP_UPDATE_ROOT`。
 
-![打开环境变量设置窗口](../../../css/intro/env-tools/set-var.jpg)
+![打开环境变量设置窗口](../../../css/intro/set-var.jpg)
 
 > 用户变量或环境变量保存后，需要重新打开命令提示符（CMD）或者 powershell 窗口才能生效。
 
@@ -60,7 +60,7 @@ $env:RUSTUP_UPDATE_ROOT=https://mirrors.sjtug.sjtu.edu.cn/rust-static/rustup
 
 打开 Rust 官网安装页面 `https://www.rust-lang.org/zh-CN/tools/install`，根据你的 Windows 操作系统类型，下载对应的 32 位或 64 位 `rustup-init.exe`。
 
-![官网提示命令](../../../css/intro/env-tools/install-windows.png)
+![官网提示命令](../../../css/intro/install-windows.png)
 
 Windows 操作系统环境中安装 Rust，需要下载 Microsoft C++ 生成工具。
 
@@ -68,7 +68,7 @@ Windows 操作系统环境中安装 Rust，需要下载 Microsoft C++ 生成工�
 
 打开 Rust 官网安装页面：https://www.rust-lang.org/zh-CN/tools/install，根据官网指示的 `Microsoft C++ 生成工具`链接地址 https://visualstudio.microsoft.com/zh-hans/visual-cpp-build-tools，下载 Microsoft C++ 生成工具。
 
-![官网提示命令](../../../css/intro/env-tools/visual-cpp-build-tools.png)
+![官网提示命令](../../../css/intro/visual-cpp-build-tools.png)
 
 Microsoft C++ 生成工具下载完成后，请根据提示安装，其耗时较长。
 
@@ -78,7 +78,7 @@ Microsoft C++ 生成工具安装完成后，运行官网获取的 `rustup-init.e
 
 > 在此，请读者忽略来源于网络的可爱的粉红色……
 
-![命令提示符中运行 rustup-init](../../../css/intro/env-tools/rustup-init-cmd.png)
+![命令提示符中运行 rustup-init](../../../css/intro/rustup-init-cmd.png)
 
 - 选项 1 是默认选项。它是安装脚本对你的操作系统环境进行检测后，向你推荐的 Rust 安装选项。默认选项安装当前 Rust 最新的稳定版本（stable），并会主动更改你的环境变量。
 - 选项 2 是自定义安装配置。在此选项中，你可以自定义安装，比如安装稳定版本（stable）还是每晚发布的版本（nightly），是否更改环境变量等。
@@ -100,7 +100,7 @@ rustup 工具的使用方法，可以使用 `rustup help` 命令方便地查阅�
 
 至此，官方命令方式安装 Rust 已经完成。打开命令提示符（CMD）或者 powershell，运行命令 `rustc --version`、`cargo --version`、`rustup --version` 检测你的环境，参考如下图片。
 
-![安装检测](../../../css/intro/env-tools/install-test.jpg)
+![安装检测](../../../css/intro/install-test.jpg)
 
 如果可以看到 rustc、cargo，以及 rustup 的版本信息，则已经安装完成（注意你的日期部分会和笔者的显示不同）。
 

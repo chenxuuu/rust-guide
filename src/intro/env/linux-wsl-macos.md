@@ -14,7 +14,7 @@
 
 打开 `https://cargo.budshome.com/reference/source-replacement.html#注册表源`，复制并在浏览器打开上海交通大学镜像域名 `https://mirrors.sjtug.sjtu.edu.cn`（不要复制后面的子目录地址 `/git/crates.io-index`）。
 
-![rust 国内源](../../../css/intro/env-tools/rust-static.png)
+![rust 国内源](../../../css/intro/rust-static.png)
 
 - 点击`镜像/反代列表`标签，输入 `rust`；
 - 在搜索结果中，可以看到镜像名 `rust-static`，其储存了 Rust 的工具链及 rustup 本身的镜像。
@@ -58,7 +58,7 @@ sudo apt install curl, gcc # 或者 g++
 
 打开 Rust 官网安装页面：https://www.rust-lang.org/zh-CN/tools/install，复制页面提示你执行的命令，其将适用于你的 Linux/WSL、macOS 环境。如下图所示为 WSL 环境安装 Rust 时，官网页面提示你执行的命令，其和 Linux 环境安装命令是相同的。
 
-![官网提示命令](../../../css/intro/env-tools/install-linux.png)
+![官网提示命令](../../../css/intro/install-linux.png)
 
 根据机器、操作系统，以及安装软件及其版本等因素的情况，你看到或许和别人稍有差别。比如笔者看到的命令为：
 
@@ -82,7 +82,7 @@ curl https://sh.rustup.rs -sSf | sh
 
 > 此界面为 macOS 操作系统环境截图。Linux/WSL 操作系统中，`default host triple` 一项则有所不同。
 
-![安装选项](../../../css/intro/env-tools/options.jpg)
+![安装选项](../../../css/intro/options.jpg)
 
 - 选项 1 是默认选项。它是安装脚本对你的操作系统环境进行检测后，向你推荐的 Rust 安装选项。默认选项安装当前 Rust 最新的稳定版本（stable），并会主动更改你的环境变量。
 - 选项 2 是自定义安装配置。在此选项中，你可以自定义安装，比如安装稳定版本（stable）还是每晚发布的版本（nightly），是否更改环境变量等。
@@ -126,7 +126,7 @@ rustup-init
 
 安装完成后，可以看到如下截图（注意你的日期部分会和笔者的显示不同）：
 
-![安装成功](../../../css/intro/env-tools/installed.jpg)
+![安装成功](../../../css/intro/installed.jpg)
 
 请注意底行的 `To configure your current shell run source $HOME/.cargo/env`，根据提示，直接复制到 shell 窗口执行。
 
@@ -136,7 +136,7 @@ source $HOME/.cargo/env
 
 至此，官方命令方式安装 Rust 已经完成。运行命令 `rustc --version`、`cargo --version`、`rustup --version` 检测你的环境，参考如下图片。
 
-![安装检测](../../../css/intro/env-tools/install-test.jpg)
+![安装检测](../../../css/intro/install-test.jpg)
 
 如果可以看到 rustc、cargo，以及 rustup 的版本信息，则已经安装完成（注意你的日期部分会和笔者的显示不同）。
 

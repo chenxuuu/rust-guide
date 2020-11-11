@@ -1,47 +1,31 @@
 # 简介
 
-《Rust 生态实践指南》是 Rust 程序设计语言（[Rust 2018 简体中文版文档](https://rust-lang.budshome.com)）的简要实例示例集合：展示了在 Rust 生态系统中，使用各类 crate 来完成常见编程任务的良好实践。
+## 内容概览
 
-了解更多关于《Rust 生态实践指南》一书的信息，请阅读[关于本书](about.md)，包括：如何阅读本书的提示、如何使用实例示例，以及关于注释的约定。
+## 运行环境
 
-> 注：《Rust 生态实践指南》计划为两个阶段。<br>
-> 第一个阶段：经仔细斟酌，形成专业、通俗、容易理解的 Rust 生态实践指南中文版本；<br>
-> 第二个阶段：对书中代码进行详细讲解，在实际应用场景中对 Rust 生态 crate 进行分析、比较，以及拓展。<br>
-> 目前第一版，即处于第一阶段。
+Rust 可以达到快速、跨平台、低资源占用的目的，目前全世界在生产环境使用 Rust 的公司已经很多，并且增长速度非常快。从初创公司到大型企业，从嵌入式设备到可扩展的 Web 服务，Rust 都完全合适。虽然并无直接的因果关系，但我们也可大概推导出，Rust 对于环境的适配能力是非常强的，可以适配于各种操作系统和平台。
 
-## 做贡献
+包括 Rust 官方组织、开源贡献者，以及业界公司，目前的 Rust 开发、测试，以及生产环境，多以 Linux 环境为主。因此本书中开发环境也以 Linux 环境为主，具体为 `Ubuntu Server 18.04.5 LTS`。对于其它 Linux 发行版，Rust 安装成功后，具体开发、调试，以及发布的命令，均没有差别。
 
-《Rust 生态实践指南》的目的是让 Rust 程序员新手能够更容易地参与到 Rust 社区中，因此它需要——并欢迎——你做出自己力所能及的贡献。
+书中对于 macOS、Windows 环境下的 Rust 开发、调试，以及运行，也会有涉及，并且有详细的讲解。
 
-### 构建和测试
+总体来说，Rust 是`跨平台`的系统级编程语言，对于应用环境的适配能力非常强，不用开发者、维护者花费过多精力。
 
-首先，从 git 克隆《Rust 生态实践指南》并进入目录：
+## 构建工具
 
-```
-git clone https://github.com/zzy/rust-crate-guide.git
-cd rust-crate-guide
-```
+本书中，我们使用 Rust 官方提供的非常强大的构建系统和包管理器 `Cargo`。它可以为你处理很多任务，比如构建代码、下载依赖库并编译这些库。
 
-《Rust 生态实践指南》使用 `mdBook`（[中文文档](https://mdbook.budshome.com)）构建，所以需要通过 `Cargo`（[中文文档](https://cargo.budshome.com)）安装它：
+## 开发工具
 
-```
-cargo install --version 0.3.5 mdbook
-```
+对于开发者来说，趁手的代码编辑器、IDE，对于开发、调试过程有极大的帮助，可以极大程度提高开发效率。本书中，对于 Rust 的开发工具介绍主要是在代码编辑器、IDE 方面给予简洁的说明，辅助读者比较选择。
 
-若要在本地生成和阅读《Rust 生态实践指南》，请运行：
+具体来讲，本章节内容划分为如下：
 
-```
-mdbook serve
-```
-
-然后在浏览器中打开 `http://localhost:3000`，即可阅读本书。对源代码所做的任何更改都将自动重新生成页面，并会主动刷新浏览器，因此在编辑源码时打开浏览器窗口是很有帮助的。
-
-书中的所有实例都是使用 [skeptic](https://github.com/brson/rust-skeptic) 测试的，它是测试任意 markdown 文档的工具，风格类似于 rustdoc。
-
-提交前，请对整个仓库进行测试：
-
-```
-cargo test
-```
-
-祝你学习愉快，欢迎提交问题，欢迎发送 PR。
+- [环境准备](env.md)
+  - [Linux/WSL/macOS 配置 Rust 环境](env/linux-wsl-macos.md)
+  - [Windows 配置 Rust 环境](env/windows.md)
+- [构建工具 Cargo](cargo.md)
+  - [使用 Cargo 创建项目](cargo/new-project.md)
+  - [配置 Cargo 国内镜像源](cargo/source-replacement.md)
+- [编辑器及 IDE](editor-ide.md)

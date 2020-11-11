@@ -7,15 +7,14 @@
 <!-- - [前言](foreword.md) -->
 - [自序](preface.md)
 - [简介](intro.md)
-  - [内容摘要](intro/overview.md)
-  - [环境和工具](intro/env-tools.md)
-    - [环境配置](intro/env-tools/installation.md)
-      - [Linux/WSL/macOS 配置 Rust 环境](intro/env-tools/installation/linux-wsl-macos.md)
-      - [Windows 配置 Rust 环境](intro/env-tools/installation/windows.md)
-    - [构建工具 Cargo](intro/env-tools/cargo.md)
-      - [使用 Cargo 创建项目](intro/env-tools/cargo/new-project.md)
-      - [配置 Cargo 国内镜像源](intro/env-tools/cargo/source-replacement.md)
-    - [编辑器及 IDE](intro/env-tools/editor-ide.md)
+  - [内容纵览](intro/overview.md)
+  - [环境配置](intro/env.md)
+    - [Linux/WSL/macOS 配置 Rust 环境](intro/env/linux-wsl-macos.md)
+    - [Windows 配置 Rust 环境](intro/env/windows.md)
+  - [构建工具 Cargo](intro/cargo.md)
+    - [使用 Cargo 创建项目](intro/cargo/new-project.md)
+    - [配置 Cargo 国内镜像源](intro/cargo/source-replacement.md)
+  - [编辑器及 IDE](intro/editor-ide.md)
 
 ------
 
