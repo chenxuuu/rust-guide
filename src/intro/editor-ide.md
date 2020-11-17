@@ -37,31 +37,24 @@ Rust 官方最早开发支持的 Visual Studio Code 编辑器的 Rust 插件。�
 
 #### rust-analyzer（推荐）
 
-目前，Visual Studio Code 编辑器下最好的 RLS 服务器插件，提供 rls 插件的大部分功能外，还支持以下特性：
+目前，Visual Studio Code 编辑器下最好的 RLS 服务器插件，安装界面如图 2.5-1 所示。
 
-![语法高亮](../css/intro/rust-analyzer-1.png)
+![rust-analyzer](../css/intro/rust-analyzer.png)
+
+图 2.5-1
+
+rust-analyzer 提供了 rls 插件的大部分功能外，还支持以下特性：
 
 - workspace 符号查找；
 - 当前文档符号搜索；
 - 输入辅助；
-
-![语法高亮](../css/intro/rust-analyzer-2.png)
-
 - 代码辅助；
 - 结构体代码辅助；
 - 自动添加缺失 trait 成员方法；
-
-![语法高亮](../css/intro/rust-analyzer-3.png)
-
 - 路径导入；
 - 改变函数可见性；
-
-![语法高亮](../css/intro/rust-analyzer-4.png)
-
 - 填充模式匹配分支；
 - Magic 填充等。
-
-![语法高亮](../css/intro/rust-analyzer-5.png)
 
 并且，rust-analyzer 插件相较于 rls 插件，性能具有很大优势。
 
@@ -71,25 +64,33 @@ Rust 官方最早开发支持的 Visual Studio Code 编辑器的 Rust 插件。�
 
 功能丰富的 toml 语言支持插件，帮助 Rust 开发者编辑 Rust 代码中的 toml 文件。支持语法高亮、代码扩展、语义分析、代码收缩，以及代码格式化等。
 
-- 语法高亮
+- 语法高亮，如图 2.5-2 所示；
 
 ![语法高亮](../css/intro/even-toml-1.png)
 
-- 代码格式化
+图 2.5-2
 
-![语法高亮](../css/intro/even-toml-2.png)
+- 代码格式化，如图 2.5-3 所示。
+
+![代码格式化](../css/intro/even-toml-2.png)
+
+图 2.5-3
 
 #### crates
 
 crates.io 中各 crate 依赖项的扩展插件，在 Rust 开发者在使用 Cargo.toml 文件时，crates 插件可以辅助开发者管理依赖项。
 
-- 更新单个依赖
+- 更新单个依赖，如图 2.5-4 所示；
 
-![语法高亮](../css/intro/crates-1.png)
+![更新单个依赖](../css/intro/crates-1.png)
 
-- 更新所有依赖
+图 2.5-4
 
-![语法高亮](../css/intro/crates-2.png)
+- 更新所有依赖，如图 2.5-5 所示。
+
+![更新所有依赖](../css/intro/crates-2.png)
+
+图 2.5-5
 
 #### LLDB VSCode
 
@@ -109,17 +110,24 @@ Sublime 性能极佳，但对 Rust 开发支持方面，插件性能较弱。
 
 ## IDE
 
-功能强大，特性丰富的 IDE 巨头 Eclipse 和 IntelliJ，也对 Rust 开发非常热心，目前都有专门针对 Rust IDE 的独立项目。
+功能强大，特性丰富的 IDE 巨头 Eclipse 和 IntelliJ，也对 Rust 开发非常热心，目前都有专门针对 Rust IDE 的独立项目。如图 2.5-6 所示。
 
 ![IntelliJ 截图](../css/intro/intellij-rust-1.png)
 
+图 2.5-6
+
 除了基本的代码高亮、格式化、自动完成、错误提示外，最重要的特性有这几个：
 
-- 代码跳转支持标准库和依赖的第三方库（神器，学 Rust 必需）。比如我们正在学 Vec，写了个 Vec::new()，既能跳到 Vec 这个 struct 的定义，也能跳到 new 函数的定义，看到对应的实现。IntelliJ Rust 同样支持通用的跳转和查找的快捷键，如双击 Shift 查找所有符号、Ctrl + N 查找类型（struct 和 trait）、Alt + F7 查找用处、Ctrl + Alt + B 查找实现（包括实现 trait 的 struct 和所有 impl 块）等。
+- 代码跳转支持标准库和依赖的第三方库（神器，学 Rust 必需）。比如我们正在学 Vec，写了个 Vec::new()，既能跳到 Vec 这个 struct 的定义，也能跳到 new 函数的定义，看到对应的实现。IntelliJ Rust 同样支持通用的跳转和查找的快捷键，如双击 Shift 查找所有符号、Ctrl + N 查找类型（struct 和 trait）、Alt + F7 查找用处、Ctrl + Alt + B 查找实现（包括实现 trait 的 struct 和所有 impl 块）等。如图 2.5-7 所示。
 
 ![IntelliJ 截图](../css/intro/intellij-rust-2.png)
 
-- 支持调试 Rust 程序。Windows平台需要MinGW+Rust GNU工具链的配合。
-- 其它小功能。如变量类型提示、文档高亮、Alt + F7 查看代码结构、动态模板、重构等。
+图 2.5-7
+
+- 支持调试 Rust 程序。Windows平台需要MinGW+Rust GNU工具链的配合。如图 2.5-8 所示。
 
 ![IntelliJ 截图](../css/intro/intellij-rust-3.png)
+
+图 2.5-8
+
+- 其它小功能。如变量类型提示、文档高亮、Alt + F7 查看代码结构、动态模板、重构等。
