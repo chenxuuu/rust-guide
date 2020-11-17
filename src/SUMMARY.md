@@ -7,6 +7,7 @@
 <!-- - [前言](foreword.md) -->
 - [自序](preface.md)
 - [简介](intro.md)
+  - [阅读建议](intro/attention.md)
   - [内容纵览](intro/overview.md)
   - [环境配置](intro/env.md)
     - [Linux/WSL/macOS 配置 Rust 环境](intro/env/linux-wsl-macos.md)
