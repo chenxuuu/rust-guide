@@ -25,7 +25,7 @@ rand crate 是 Rust 生态中的一个随机数生成工具。其提供了如下
 - 将生成的随机数进行类型转换、分发；
 - 一些与随机性相关的算法。
 
-rand crate 是由一系列 crate 组成的，rand crate 提供了主用户界面。如果需要额外的分发类型，可以使用 rand_distr crate 或者 statrs crate 来补充。
+rand crate 是由一系列 crate 组成的，rand crate 提供了主用户界面。如果需要额外的分发类型，可以使用 rand_distr crate 或者 statrs crate 来补充。具体结构关系如表 3.1-1 所示。
 
 ```
 getrandom ┐
@@ -37,6 +37,8 @@ getrandom ┐
                                            ├ rand_distr
                                            └ statrs
 ```
+
+表 3.1-1
 
 ### rand_distr
 
@@ -74,7 +76,7 @@ rand_distr crate 实现了诸多概率分布类型，如均匀分布、正态分
   - `逆高斯（InverseGaussian）`分布
   - `正态逆高斯（NormalInverseGaussian）`分布
 
-rand_distr crate 是对 rand crate 的补充。
+如上表 3.1-1 所示，rand_distr crate 是对 rand crate 的补充。
 
 ## 实例实践
 

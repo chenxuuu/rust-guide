@@ -15,34 +15,26 @@
 - 均匀分布：在概率论和统计学中，均匀分布也叫矩形分布，它是对称概率分布，在相同长度间隔的分布概率是可能相等的。
 
 ```rust,edition2018
-use rand::Rng;
-
-fn main() {
-    let mut rng = rand::thread_rng();
-    println!("Integer: {}", rng.gen_range(0, 10)); // 半开放范围取随机值，即包括`低位`而不包括`高位`
-    println!("Float: {}", rng.gen_range(0.0, 10.0));
-}
+{{ #include ../../../examples/algorithms/randomness/examples/rand-range-10.rs }}
 ```
+
+构建并执行后，结果大抵如图 3.1-2 所示，但具体值会和笔者不一定相同。
+
+![rand-range-10](../../css/algorithms/rand-range-10.png)
+
+图 3.1-2
 
 使用 [`Uniform`] 模块可以得到[均匀分布][uniform distribution]的值。下述代码和上述代码具有相同的效果，但在相同范围内重复生成数字时，下述代码性能可能会更好。
 
 ```rust,edition2018
-
-use rand::distributions::{Distribution, Uniform};
-
-fn main() {
-    let mut rng = rand::thread_rng();
-    let die = Uniform::from(1..7);
-
-    loop {
-        let throw = die.sample(&mut rng);
-        println!("Roll the die: {}", throw);
-        if throw == 6 {
-            break;
-        }
-    }
-}
+{{ #include ../../../examples/algorithms/randomness/examples/rand-range-uniform.rs }}
 ```
+
+构建并执行后，结果大抵如图 3.1-3 所示，但具体值会和笔者不一定相同。
+
+![rand-range-uniform](../../css/algorithms/rand-range-uniform.png)
+
+图 3.1-3
 
 [`Uniform`]: https://docs.rs/rand/*/rand/distributions/uniform/struct.Uniform.html
 [`Rng::gen_range`]: https://doc.rust-lang.org/rand/*/rand/trait.Rng.html#method.gen_range
