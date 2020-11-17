@@ -3,7 +3,9 @@
 [Build Status travis]: https://api.travis-ci.com/zzy/rust-crate-guide.svg?branch=master
 [travis]: https://travis-ci.com/zzy/rust-crate-guide
 
-Rust 生态实践指南 - The Guide to Rust Crates
+Rust 生态实践指南 - The Guide to Rust Crates。
+
+如果欲了解本书，请阅读[本书前言 - https://rust-crate-guide.budshome.com/preface.html](https://rust-crate-guide.budshome.com/preface.html)。
 
 ## 在线阅读
 
