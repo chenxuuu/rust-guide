@@ -18,7 +18,7 @@
 {{ #include ../../../examples/algorithms/randomness/examples/rand-range-10.rs }}
 ```
 
-构建并执行后，结果大抵如图 3.1-2 所示，但具体值会和笔者不一定相同。
+构建并执行后，结果大抵如图 3.1-2 所示，但具体值和笔者运行结果不一定相同。
 
 ![rand-range-10](../../css/algorithms/rand-range-10.png)
 
@@ -30,7 +30,7 @@
 {{ #include ../../../examples/algorithms/randomness/examples/rand-range-uniform.rs }}
 ```
 
-构建并执行后，结果大抵如图 3.1-3 所示，但具体值会和笔者不一定相同。
+构建并执行后，结果大抵如图 3.1-3 所示，但具体值和笔者运行结果不一定相同。
 
 ![rand-range-uniform](../../css/algorithms/rand-range-uniform.png)
 
