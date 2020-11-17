@@ -13,21 +13,23 @@
 - `rand::Rng`：`RngCore` 上自动实现的扩展 trait，为抽样取值和其它便捷方法实现了高层次的泛型方法。
 - `rand::thread_rng`：创建随机数生成器线程的函数。调用后，由系统创建延迟初始化的本地线程。随机生成器线程将用于方法链（method chaining）样式，如 `thread_rng().gen::<i32>()`。或本地缓存，如 `let mut rng = thread_rng();`。由 `Default` trait 调用，等效于 `ThreadRng::default()`。
 
+> 以下实例代码引用自 rust-cookbook 项目，笔者在其基础上稍作修改。
+
 ```rust,edition2018
-use rand::Rng; // `RngCore` 上自动实现的扩展 trait，实现了高层次的泛型方法
-
-fn main() {
-    let mut rng = rand::thread_rng(); // 由系统创建延迟初始化的随机数生成器本地线程
-
-    let n1: u8 = rng.gen(); // 返回一个支持标准分布的随机值
-    let n2: u16 = rng.gen();
-    println!("Random u8: {}", n1);
-    println!("Random u16: {}", n2);
-    println!("Random u32: {}", rng.gen::<u32>());
-    println!("Random i32: {}", rng.gen::<i32>());
-    println!("Random float: {}", rng.gen::<f64>());
-}
+{{ #include ../../../examples/algorithms/randomness/examples/rand.rs }}
 ```
+
+代码第 1 行，我们使用 `use` 关键字将 `rand::Rng` 引入作用域。`rand::Rng` 是在 `RngCore` trait 上自动实现的扩展 trait，它实现了高层次的泛型方法。
+
+代码第 4 行，由系统创建本地线程，作用为延迟初始化的随机数生成器。
+
+代码第 6，7 行，均为返回支持标准分布的随机值，分别是 u8，u16 的无符号整型。
+
+构建并执行后，结果大抵如图 3.1-1 所示，但具体值会和笔者不一定相同。
+
+![rand](../../css/algorithms/rand.png)
+
+图 3.1-1
 
 [`rand::Rng`]: https://docs.rs/rand/*/rand/trait.Rng.html
 [`rand::thread_rng`]: https://docs.rs/rand/*/rand/fn.thread_rng.html
