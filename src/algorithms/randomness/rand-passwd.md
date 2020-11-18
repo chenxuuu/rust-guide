@@ -1,11 +1,5 @@
 ### 从一组字母数字字符创建随机密码
 
-<!--
-> [algorithms/randomness/rand-passwd.md](https://github.com/zzy/rust-cookbook-zh-cn/blob/master/src/algorithms/randomness/rand-passwd.md)
-> <br />
-> commit - 1758f63077836b734be0d62c550403c220056aa2 - 2020.09.06
--->
-
 [![rand-badge]][rand] [![cat-os-badge]][cat-os]
 
 随机生成一个给定长度的 ASCII 字符串，范围为 `A-Z，a-z，0-9`，使用[字母数字][`Alphanumeric`]样本。

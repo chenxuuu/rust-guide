@@ -1,11 +1,5 @@
 ### 生成给定分布随机数
 
-<!--
-> [algorithms/randomness/rand-dist.md](https://github.com/zzy/rust-cookbook-zh-cn/blob/master/src/algorithms/randomness/rand-dist.md)
-> <br />
-> commit - e7c4a93116ef1a0dc50a526b81e9633770cc2afa - 2020.09.07
--->
-
 [![rand_distr-badge]][rand_distr] [![cat-science-badge]][cat-science]
 
 默认情况下，随机数在 `rand` crate 中是[均匀分布][uniform distribution]。[`rand_distr`] crate 提供其它的分布类型。如要使用，首先实例化一个分布，然后在随机数生成器 [`rand::Rng`] 的帮助下，使用 [`Distribution::sample`] 从该分布中进行采样。

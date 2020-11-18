@@ -1,11 +1,5 @@
 ### 生成范围内随机数
 
-<!--
-> [algorithms/randomness/rand-range.md](https://github.com/zzy/rust-cookbook-zh-cn/blob/master/src/algorithms/randomness/rand-range.md)
-> <br />
-> commit - 1758f63077836b734be0d62c550403c220056aa2 - 2020.09.06
--->
-
 [![rand-badge]][rand] [![cat-science-badge]][cat-science]
 
 使用 [`Rng::gen_range`]，在半开放的 `[0, 10)` 范围内（不包括 `10`）生成一个随机值。

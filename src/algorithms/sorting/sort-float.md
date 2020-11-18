@@ -1,11 +1,5 @@
 ### 浮点数 Vector 排序
 
-<!--
-> [algorithms/sorting/sort_float.md](https://github.com/zzy/rust-cookbook-zh-cn/blob/master/src/algorithms/sorting/sort_float.md)
-> <br />
-> commit - 1758f63077836b734be0d62c550403c220056aa2 - 2020.09.06
--->
-
 [![std-badge]][std] [![cat-science-badge]][cat-science]
 
 f32 或 f64 的 vector，可以使用 [`vec::sort_by`] 和 [`PartialOrd::partial_cmp`] 对其进行排序。
@@ -15,15 +9,21 @@ f32 或 f64 的 vector，可以使用 [`vec::sort_by`] 和 [`PartialOrd::partial
   - 等量代换：`a < b` 和 `b < c` 意味着 `a < c`。对于 `==` 和 `>`，同样具有等量代换关系。
 - `PartialOrd::partial_cmp`：如果存在`其它值（other ）`，此方法将返回`自己（self）`和`其它值（other ）`之间的排序。
 
+> 以下实例代码引用自 rust-cookbook 项目，笔者在其基础上稍作修改。
+
 ```rust,edition2018
-fn main() {
-    let mut vec = vec![1.1, 1.15, 5.5, 1.123, 2.0];
-
-    vec.sort_by(|a, b| a.partial_cmp(b).unwrap());
-
-    assert_eq!(vec, vec![1.1, 1.123, 1.15, 2.0, 5.5]);
-}
+{{ #include ../../../examples/algorithms/sorting/examples/sort-float.rs }}
 ```
+
+代码第 5 行，使用 `PartialOrd::partial_cmp` 对浮点型 vector 进行排序。
+
+构建并运行后，结果大抵如图 3.2-2 所示。
+
+![sort-float](../../css/algorithms/sort-float.png)
+
+图 3.2-2
+
+断言的使用和整型 vector 排序类似，不再赘述。
 
 [`vec::sort_by`]: https://doc.rust-lang.org/std/primitive.slice.html#method.sort_by
 [`PartialOrd::partial_cmp`]: https://doc.rust-lang.org/std/cmp/trait.PartialOrd.html#tymethod.partial_cmp

@@ -1,11 +1,5 @@
 ### 生成随机数
 
-<!--
-> [algorithms/randomness/rand.md](https://github.com/zzy/rust-cookbook-zh-cn/blob/master/src/algorithms/randomness/rand.md)
-> <br />
-> commit - 34d313413dfea8bf2c50bf3c536a493cf28dea1b - 2020.09.11
--->
-
 [![rand-badge]][rand] [![cat-science-badge]][cat-science]
 
 在随机数生成器 [`rand::Rng`] 的帮助下，通过 [`rand::thread_rng`] 生成随机数。可以开启多个线程，每个线程都有一个初始化的生成器。整数在其类型范围内均匀分布，浮点数是从 0 均匀分布到 1，但不包括 1。

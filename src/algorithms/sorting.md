@@ -21,7 +21,7 @@ Rust 标准库提供了核心类型，如 `Vec<T>` 和 `Option<T>`、语言原�
 ## 实例实践
 
 {{#include sorting/sort.md}}
-{{#include sorting/sort_float.md}}
-{{#include sorting/sort_struct.md}}
+{{#include sorting/sort-float.md}}
+{{#include sorting/sort-struct.md}}
 
 {{#include ../links.md}}

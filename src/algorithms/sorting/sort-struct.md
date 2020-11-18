@@ -1,11 +1,5 @@
 ### 结构体 Vector 排序
 
-<!--
-> [algorithms/sorting/sort_struct.md](https://github.com/zzy/rust-cookbook-zh-cn/blob/master/src/algorithms/sorting/sort_struct.md)
-> <br />
-> commit - eeb42dbc6f799a60df53fc1e7f214a5c01e9618d - 2020.09.07
--->
-
 [![std-badge]][std] [![cat-science-badge]][cat-science]
 
 依据自然顺序（按名称和年龄），对具有 `name` 和 `age` 属性的 Person 结构体 Vector 排序。为了使 Person 可排序，你需要四个 traits：[`Eq`]、[`PartialEq`]、[`Ord`]，以及 [`PartialOrd`]。这些 traits 可以被简单地派生。你也可以使用 [`vec:sort_by`] 方法自定义比较函数，仅按照年龄排序。
@@ -25,53 +19,27 @@
   - 等量代换：`a < b` 和 `b < c` 意味着 `a < c`。对于 `==` 和 `>`，同样具有等量代换关系。
 - `vec::sort`：对切片进行排序，这种排序是稳定的（即不重新排序相等的元素）。在合适的场景，不稳定排序是首选的，因为它通常比稳定排序快，并且不分配辅助内存。
 
+> 以下实例代码引用自 rust-cookbook 项目，笔者在其基础上稍作修改。
+
 ```rust,edition2018
-#[derive(Debug, Eq, Ord, PartialEq, PartialOrd)]
-struct Person {
-    name: String,
-    age: u32
-}
-
-impl Person {
-    pub fn new(name: String, age: u32) -> Self {
-        Person {
-            name,
-            age
-        }
-    }
-}
-
-fn main() {
-    let mut people = vec![
-        Person::new("Zoe".to_string(), 25),
-        Person::new("Al".to_string(), 60),
-        Person::new("John".to_string(), 1),
-    ];
-
-    // 根据获得的自然顺序（name 和 age）对 people 进行排序
-    people.sort();
-
-    assert_eq!(
-        people,
-        vec![
-            Person::new("Al".to_string(), 60),
-            Person::new("John".to_string(), 1),
-            Person::new("Zoe".to_string(), 25),
-        ]);
-
-    // 根据 age 值对 people 进行排序
-    people.sort_by(|a, b| b.age.cmp(&a.age));
-
-    assert_eq!(
-        people,
-        vec![
-            Person::new("Al".to_string(), 60),
-            Person::new("Zoe".to_string(), 25),
-            Person::new("John".to_string(), 1),
-        ]);
-
-}
+{{ #include ../../../examples/algorithms/sorting/examples/sort-struct.rs }}
 ```
+
+代码第 1-5 行，创建结构体类型 `Person`，并为其派生一系列宏 `Debug, Eq, Ord, PartialEq, PartialOrd`。
+
+代码第 14 行，为结构体类型 `Person` 实现 `new` 方法。并且在代码第 17-21 行，使用 `new` 方法绑定值到结构体 `people`。
+
+代码第 25 行，根据自然顺序，即为全部值 name 和 age，对结构体 `people` 进行排序。
+
+代码第 37 行，仅根据 age 值对结构体 `people` 进行排序，在 `sort_by` 方法中通过闭包，指定排序依据 age 值。
+
+构建并运行后，结果大抵如图 3.2-3 所示。
+
+![sort-float](../../css/algorithms/sort-struct.png)
+
+图 3.2-3
+
+断言的使用和整型 vector 排序类似，不再赘述。
 
 [`Eq`]: https://doc.rust-lang.org/std/cmp/trait.Eq.html 
 [`PartialEq`]: https://doc.rust-lang.org/std/cmp/trait.PartialEq.html
