@@ -14,20 +14,23 @@
 - `rand_distr`：rand_distr crate 是 `rand::distributions` 模块的一个超级集合，实现了诸多概率分布类型，如均匀分布、正态分布（Normal distribution）、柯西分布（Cauchy distribution）等。请参考本章 “crate 介绍”一节。
 - `Distribution::sample`：此函数创建一个迭代器，用来生成泛型 T 的随机值，其使用 `rng` 作为随机来源。
 
-关于更多信息，阅读[可用分布文档][rand-distributions]。如下是一个使用[`正态（Normal）`][`Normal`]分布的实例。
+关于更多信息，可阅读相关[可用分布文档][rand-distributions]。如下是一个使用[`正态（Normal）`][`Normal`]分布的实例。
 
-```rust,edition2018,ignore
-use rand_distr::{Distribution, Normal, NormalError};
-use rand::thread_rng;
+> 以下实例代码引用自 rust-cookbook 项目，笔者在其基础上稍作修改。
 
-fn main() -> Result<(), NormalError> {
-    let mut rng = thread_rng();
-    let normal = Normal::new(2.0, 3.0)?; // 正态分布
-    let v = normal.sample(&mut rng);
-    println!("{} is from a N(2, 9) distribution", v);
-    Ok(())
-}
+```rust,edition2018
+{{ #include ../../../examples/algorithms/randomness/examples/rand-dist.rs }}
 ```
+
+代码第 1-5 行，分别为使用 `use` 将正态分布相关模块引入作用域，以及由系统创建本地线程，作用为延迟初始化的随机数生成器。
+
+代码第 6，7 行，建立正态分布模型，以及使用通过正态分布 `rand_distr::{Distribution, Normal, NormalError}` trait 实现的 `sample` 方法从半开放范围（2.0，9.0）取随机值。
+
+构建并运行后，结果大抵如图 3.1-5 所示，但具体值和笔者运行结果不一定相同。
+
+![rand-dist](../../css/algorithms/rand-dist.png)
+
+图 3.1-5
 
 [`Distribution::sample`]: https://docs.rs/rand/*/rand/distributions/trait.Distribution.html#tymethod.sample
 [`Normal`]: https://docs.rs/rand_distr/*/rand_distr/struct.Normal.html

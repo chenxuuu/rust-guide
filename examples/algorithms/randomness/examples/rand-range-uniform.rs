@@ -6,7 +6,9 @@ fn main() {
 
     loop {
         let throw = die.sample(&mut rng);
+
         println!("  丢一次骰子： {}", throw);
+        
         if throw == 6 {
             break;
         }
