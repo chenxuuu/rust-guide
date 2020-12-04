@@ -9,9 +9,7 @@ Rust 生态实践指南 - The Guide to Rust Crates。
 
 ## 在线阅读
 
-内容规划中，请先访问《[Rust Cookbook 中文版](https://rust-cookbook.budshome.com)》
-
-<!-- 在线阅读地址：[**《Rust 生态实践指南》** - http://rust-crate-guide.budshome.com](http://rust-crate-guide.budshome.com)。 -->
+在线阅读地址：[**《Rust 生态实践指南》** - http://rust-crate-guide.budshome.com](http://rust-crate-guide.budshome.com)。
 
 ## 离线阅读
 

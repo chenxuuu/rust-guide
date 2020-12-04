@@ -1,7 +1,7 @@
 # Rust 生态实践指南
 
 [Rust 生态实践指南](index.md)
-[序](foreword.md)
+<!-- [序](foreword.md) -->
 
 ------
 
@@ -27,7 +27,7 @@
   - [更新和卸载](3-env/3.5-update-uninstall.md)
   - [编辑器、IDE](3-env/3.6-editor-ide.md)
     - [编辑器及其扩展](3-env/3.6-editor-ide/3.6.1-editor.md)
-    - [IDE](3-env/3.6-editor-ide/3.6.2-ide.md)
+    - [IDE 及其插件](3-env/3.6-editor-ide/3.6.2-ide.md)
 - [Cargo 工具](4-cargo.md)
   - [配置 cargo 国内镜像源](4-cargo/4.1-source-replacement.md)
   - [使用 cargo 管理 crate](4-cargo/4.2-crate.md)
