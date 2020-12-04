@@ -123,7 +123,7 @@
     - [Cargo 外部工具](24-appendix/24.2-cargo/24.2.6-external-tools.md)
     - [Cargo 常见问题](24-appendix/24.2-cargo/24.2.7-faq.md)
   - [附录三：Rust 模糊测试](24-appendix/24.3-rust-fuzz.md)
-    - [使用 cargo-fuzz 进行模糊测试](24-appendix/24.3-rust-fuzz/24.3.1-cargo-fuzz.md)
+    - [使用 fuzz 进行模糊测试](24-appendix/24.3-rust-fuzz/24.3.1-cargo-fuzz.md)
     - [使用 afl.rs 进行模糊测试](24-appendix/24.3-rust-fuzz/24.3.2-afl-rs.md)
   - [附录四：书籍构建工具 mdBook](24-appendix/24.4-mdbook.md)
 
