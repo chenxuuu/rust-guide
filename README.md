@@ -1,15 +1,15 @@
-# Rust 生态实践指南 &emsp; [![Build Status travis]][travis]
+# Rust Crates 实践指南 &emsp; [![Build Status travis]][travis]
 
 [Build Status travis]: https://api.travis-ci.com/zzy/rust-crate-guide.svg?branch=master
 [travis]: https://travis-ci.com/zzy/rust-crate-guide
 
-Rust 生态实践指南 - The Guide to Rust Crates。
+Rust Crates 实践指南 - The Guide to Rust Crates。
 
 如果欲了解本书，请阅读[本书前言 - https://rust-crate-guide.budshome.com/preface.html](https://rust-crate-guide.budshome.com/preface.html)。
 
 ## 在线阅读
 
-《Rust 生态实践指南》，内容规划中。
+《Rust Crates 实践指南》，内容规划中。
 
 在线试读地址：[http://rust-crate-guide.budshome.com](http://rust-crate-guide.budshome.com)。
 
@@ -44,24 +44,24 @@ $ cargo test
 
 ## 贡献
 
-《Rust 生态实践指南》的目的是让 Rust 程序员新手能够更容易地参与到 Rust 语言社区中，因此它需要——并欢迎——你做出自己力所能及的贡献。
+《Rust Crates 实践指南》的目的是让 Rust 程序员新手能够更容易地参与到 Rust 语言社区中，因此它需要——并欢迎——你做出自己力所能及的贡献。
 
 ### 构建和测试
 
-首先，从 git 克隆《Rust 生态实践指南》并进入目录：
+首先，从 git 克隆《Rust Crates 实践指南》并进入目录：
 
 ```
 git clone https://github.com/zzy/rust-crate-guide.git
 cd rust-crate-guide
 ```
 
-《Rust 生态实践指南》使用 `mdBook`（[中文文档](https://mdbook.budshome.com)）构建，所以需要通过 `Cargo`（[中文文档](https://cargo.budshome.com)）安装它：
+《Rust Crates 实践指南》使用 `mdBook`（[中文文档](https://mdbook.budshome.com)）构建，所以需要通过 `Cargo`（[中文文档](https://cargo.budshome.com)）安装它：
 
 ```
 cargo install --version 0.3.5 mdbook
 ```
 
-若要在本地生成和阅读《Rust 生态实践指南》，请运行：
+若要在本地生成和阅读《Rust Crates 实践指南》，请运行：
 
 ```
 mdbook serve

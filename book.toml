@@ -1,8 +1,8 @@
 [book]
-title = "Rust 生态实践指南 - The Guide to Rust Crates"
+title = "Rust Crates 实践指南 - The Guide to Rust Crates"
 authors = ["zzy"]
 language = "zh"
-description = "Rust 生态实践指南, Rust crate 集成应用, Rust crate 技术参考手册, Rust 实例示例, Rust 编程实战"
+description = "Rust Crates 实践指南, Rust crate 集成应用, Rust crate 技术参考手册, Rust 实例示例, Rust 编程实战"
 src = "src"
 multilingual = true
 

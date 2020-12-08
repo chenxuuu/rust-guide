@@ -1,6 +1,6 @@
-# Rust 生态实践指南
+# Rust Crates 实践指南
 
-[Rust 生态实践指南](index.md)
+[Rust Crates 实践指南](index.md)
 <!-- [序](foreword.md) -->
 
 ------
@@ -62,7 +62,7 @@
   - [驱动程序](11-database/11.1-driver.md)
     - [SQLite](11-database/11.1-driver/11.1.1-sqlite.md)
     - [Postgres](11-database/11.1-driver/11.1.2-postgres.md)
-    - [SQLite](11-database/11.1-driver/11.1.3-mysql.md)
+    - [MySql](11-database/11.1-driver/11.1.3-mysql.md)
     - [Postgres](11-database/11.1-driver/11.1.4-mongodb.md)
   - [ORM 工具](11-database/11.2-orm.md)
     - [diesel](11-database/11.2-orm/11.2.1-diesel.md)
