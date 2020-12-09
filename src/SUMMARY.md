@@ -19,7 +19,7 @@
     - [Homebrew 安装 Rust](3-env/3.2-linux-wsl-macos/3.2.2-homebrew-rust.md)
   - [Windows 配置 Rust 环境](3-env/3.3-windows.md)
     - [安装 Microsoft C++ 生成工具](3-env/3.3-windows/3.3.1-cpp-build.md)
-    - [运行 rustup-init](3-env/3.3-windows/3.3.2-rustup-init.md)
+    - [rustup 安装器](3-env/3.3-windows/3.3.2-rustup-init.md)
   - [更新和卸载](3-env/3.4-update-uninstall.md)
   - [编辑器、IDE](3-env/3.6-editor-ide.md)
     - [编辑器及其扩展](3-env/3.6-editor-ide/3.6.1-editor.md)
