@@ -15,7 +15,7 @@ Rust Crates 实践指南 - The Guide to Rust Crates。
 
 ## 离线阅读
 
-如果你喜欢本地阅读方式，可以使用 mdBook（[中文文档](https://mdbook.budshome.com)） 进行书籍构建：
+如果您喜欢本地阅读方式，可以使用 mdBook（[中文文档](https://mdbook.budshome.com)） 进行书籍构建：
 
 ```bash
 $ git clone https://github.com/zzy/rust-crate-guide
@@ -24,7 +24,7 @@ $ cargo install mdbook # 指定版本使用参数：--vers "0.3.5"
 $ mdbook serve --open # 或者 mdbook build
 ```
 
-也可以直接用你喜欢的浏览器从 `book` 子目录打开 `index.html` 文件。
+也可以直接用您喜欢的浏览器从 `book` 子目录打开 `index.html` 文件。
 
 ```bash
 $ xdg-open ./book/index.html # linux
@@ -44,7 +44,7 @@ $ cargo test
 
 ## 贡献
 
-《Rust Crates 实践指南》的目的是让 Rust 程序员新手能够更容易地参与到 Rust 语言社区中，因此它需要——并欢迎——你做出自己力所能及的贡献。
+《Rust Crates 实践指南》的目的是让 Rust 程序员新手能够更容易地参与到 Rust 语言社区中，因此它需要——并欢迎——您做出自己力所能及的贡献。
 
 ### 构建和测试
 
@@ -77,4 +77,4 @@ mdbook serve
 cargo test
 ```
 
-祝你学习愉快，欢迎提交问题，欢迎发送 PR。
+祝您学习愉快，欢迎提交问题，欢迎发送 PR。
