@@ -29,15 +29,9 @@
   - [使用 cargo 管理 crate](4-cargo/4.2-crate.md)
   - [使用 cargo 构建项目](4-cargo/4.3-project.md)
     - [创建项目](4-cargo/4.3-project/4.3.1-new.md)
-    - [编译并运行项目](4-cargo/4.3-project/4.3.2-build-run.md)
+    - [编译和运行项目](4-cargo/4.3-project/4.3.2-build-run.md)
     - [发布项目](4-cargo/4.3-project/4.3.3-release.md)
-  <!-- - [环境配置](intro/env.md)
-    - [Linux/WSL/macOS 配置 Rust 环境](intro/env/linux-wsl-macos.md)
-    - [Windows 配置 Rust 环境](intro/env/windows.md)
-  - [构建工具 Cargo](intro/cargo.md)
-    - [使用 Cargo 创建项目](intro/cargo/new-project.md)
-    - [配置 Cargo 国内镜像源](intro/cargo/source-replacement.md)
-  - [编辑器及 IDE](intro/editor-ide.md) -->
+  - [使用 cargo 构建本书实例](4-cargo/4.4-example.md)
 
 ------
 
