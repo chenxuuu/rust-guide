@@ -8,6 +8,7 @@ fn main() {
     
     println!("  u8    随机数： {}", n1);
     println!("  u16   随机数： {}", n2);
+    
     println!("  u32   随机数： {}", rng.gen::<u32>());
     println!("  i32   随机数： {}", rng.gen::<i32>());
     println!("  float 随机数： {}", rng.gen::<f64>());
