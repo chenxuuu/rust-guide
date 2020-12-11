@@ -1,8 +1,7 @@
 use rand::Rng;
 
 fn main() {
-    const CHARSET: &[u8] = b"ABCDEFGHIJKLMNOPQRSTUVWXYZ\
-                            abcdefghijklmnopqrstuvwxyz\
+    const CHARSET: &[u8] = b"abcdefghijklmnopqrstuvwxyz\
                             0123456789)(*&^%$#@!~";
     const PASSWORD_LEN: usize = 30;
 
