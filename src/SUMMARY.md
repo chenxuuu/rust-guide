@@ -1,6 +1,6 @@
-# Rust Crates 实践指南
+# Rust 实践指南
 
-[Rust Crates 实践指南](index.md)
+[Rust 实践指南](index.md)
 <!-- [序](foreword.md) -->
 
 ------
