@@ -2,11 +2,11 @@
 
 Rust 实践指南 - The Hitchhiker's Guide to Rust
 
-如果欲了解本书，请阅读[本书前言 - https://rust-guide.budshome.com/preface.html](https://rust-guide.budshome.com/preface.html)。
+如果欲了解本书，请阅读[本书前言](https://rust-guide.budshome.com/1-preface.html)。
 
 ## 在线阅读
 
-《Rust 实践指南》，内容规划中。
+《Rust 实践指南》，内容规划中。欢迎您提出宝贵意见：linshi@budshome.com，budshome（微信）。
 
 在线试读地址：[http://rust-guide.budshome.com](http://rust-guide.budshome.com)。
 
@@ -36,6 +36,6 @@ $ open ./book/index.html     # mac
 
 ## 贡献
 
-《Rust 实践指南》的目的是让 Rust 程序员新手能够更容易地参与到 Rust 语言社区中，因此它需要——并欢迎——你做出自己力所能及的贡献。
+《Rust 实践指南》的目的是让 Rust 程序员新手能够更容易地参与到 Rust 语言社区中，因此非常欢迎您的参与。
 
-祝你学习愉快，欢迎提交问题，欢迎发送 PR。
+祝您学习愉快，欢迎提交问题，欢迎发送 PR。
