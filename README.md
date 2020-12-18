@@ -6,7 +6,7 @@ Rust 实践指南 - The Hitchhiker's Guide to Rust
 
 ## 在线阅读
 
-《Rust 实践指南》，内容规划中。欢迎您提出宝贵意见：linshi@budshome.com，budshome（微信）。
+《Rust 实践指南》，内容规划中。欢迎您提出宝贵意见：linshi@budshome.com，budshome（个人微信），晨曦中（微信公众号）。
 
 在线试读地址：[http://rust-guide.budshome.com](http://rust-guide.budshome.com)。
 

@@ -12,7 +12,7 @@ Rust 实践指南 - The Hitchhiker's Guide to Rust
 
 本书是受到 rust-lang-nursery 团队的开源书籍项目《Cookin' with Rust》启发而产生的，并且学习借鉴了它的目录结构。
 
-欢迎交流：linshi@budshome.com，budshome（微信）。另有站点微信公众号，如下图——
+欢迎交流：linshi@budshome.com，budshome（个人微信）。另有站点微信公众号，如下图——
 
 ![晨曦中](css/cxz.png)
 
