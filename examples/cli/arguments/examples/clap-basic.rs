@@ -1,9 +1,9 @@
 use clap::{Arg, App};
 
 fn main() {
-    let matches = App::new("My Test Program")
+    let matches = App::new("测试程序")
         .version("0.1.0")
-        .author("Hackerman Jones <hckrmnjones@hack.gov>")
+        .author("李希 <llxx@example.com>")
         .about("Teaches argument parsing")
         .arg(Arg::with_name("file")
                  .short("f")
