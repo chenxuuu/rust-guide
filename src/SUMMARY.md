@@ -2,10 +2,11 @@
 
 [Rust 实践指南](index.md)
 <!-- [序](foreword.md) -->
-------
 
+------
 # 基础篇
 ------
+
 - [前言](1-preface.md)
   - [Rust 语言的优势](1-preface/1.1-advantage.md)
   - [本书编撰原因和主要内容](1-preface/1.2-why-what.md)
@@ -33,10 +34,11 @@
     - [编译和运行项目](4-cargo/4.3-project/4.3.2-build-run.md)
     - [发布项目](4-cargo/4.3-project/4.3.3-release.md)
   - [使用 cargo 构建本书实例](4-cargo/4.4-example.md)
-------
 
+------
 # 实践篇
 ------
+
 - [算法](5-algorithms.md)
   - [生成随机值](5-algorithms/5.1-randomness.md)
     - [生成随机数](5-algorithms/5.1-randomness/5.1.1-rand.md)
@@ -124,10 +126,11 @@
     - [请求处理](23-web/23.5-clients/23.5.1-requests.md)
     - [Web API 调用](23-web/23.5-clients/23.5.2-apis.md)
     - [下载](23-web/23.5-clients/23.5.3-download.md)
-------
 
+------
 # 拓展篇
 ------
+
 - [附录](24-appendix.md)
   - [附录一：源码编译安装 Rust](24-appendix/24.1-installing-from-source.md)
   - [附录二：Cargo 进阶](24-appendix/24.2-cargo.md)
@@ -142,4 +145,5 @@
     - [使用 fuzz 进行模糊测试](24-appendix/24.3-rust-fuzz/24.3.1-cargo-fuzz.md)
     - [使用 afl.rs 进行模糊测试](24-appendix/24.3-rust-fuzz/24.3.2-afl-rs.md)
   - [附录四：书籍构建工具 mdBook](24-appendix/24.4-mdbook.md)
+
 ------
