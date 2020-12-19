@@ -4,7 +4,7 @@
 <!-- [序](foreword.md) -->
 
 ------
-# 第一部分 基础
+# 第一部分 配置和工具
 ------
 
 - [前言](1-preface.md)
@@ -36,7 +36,7 @@
   - [使用 cargo 构建本书实例](4-cargo/4.4-example.md)
 
 ------
-# 第二部分 实践
+# 第二部分 实践和讨论
 ------
 
 - [算法](5-algorithms.md)
@@ -183,22 +183,22 @@
     - [下载](23-web/23.5-clients/23.5.3-download.md)
 
 ------
-# 第三部分 拓展
+# 第三部分 进阶和延伸
 ------
 
-- [附录](24-appendix.md)
-  - [附录一：源码编译安装 Rust](24-appendix/24.1-installing-from-source.md)
-  - [附录二：Cargo 进阶](24-appendix/24.2-cargo.md)
-    - [Cargo 清单格式详解](24-appendix/24.2-cargo/24.2.1-manifest.md)
-    - [Cargo 文件和依赖项管理](24-appendix/24.2-cargo/24.2.2-cargo-toml-dependencies-cargo-lock.md)
-    - [项目的构建过程](24-appendix/24.2-cargo/24.2.3-build-run-debug-release.md)
-    - [使用 Cargo 发布 crate](24-appendix/24.2-cargo/24.2.4-publishing.md)
-    - [Cargo 构建脚本](24-appendix/24.2-cargo/24.2.5-build-scripts.md)
-    - [Cargo 外部工具](24-appendix/24.2-cargo/24.2.6-external-tools.md)
-    - [Cargo 常见问题](24-appendix/24.2-cargo/24.2.7-faq.md)
-  - [附录三：Rust 模糊测试](24-appendix/24.3-rust-fuzz.md)
-    - [使用 fuzz 进行模糊测试](24-appendix/24.3-rust-fuzz/24.3.1-cargo-fuzz.md)
-    - [使用 afl.rs 进行模糊测试](24-appendix/24.3-rust-fuzz/24.3.2-afl-rs.md)
-  - [附录四：书籍构建工具 mdBook](24-appendix/24.4-mdbook.md)
+- [源码编译安装 Rust](24-installing-from-source.md)
+- [Rust 构建进阶](25-rust-build-advanced.md)
+  - [Cargo 进阶](25-rust-build-advanced/25.1-cargo-advanced.md)
+    - [Cargo 清单格式详解](25-rust-build-advanced/25.1-cargo-advanced/25.1.1-manifest.md)
+    - [Cargo 文件和依赖项管理](25-rust-build-advanced/25.1-cargo-advanced/25.1.2-cargo-toml-dependencies-cargo-lock.md)
+    - [项目的构建过程](25-rust-build-advanced/25.1-cargo-advanced/25.1.3-build-run-debug-release.md)
+    - [使用 Cargo 发布 crate](25-rust-build-advanced/25.1-cargo-advanced/25.1.4-publishing.md)
+    - [Cargo 构建脚本](25-rust-build-advanced/25.1-cargo-advanced/25.1.5-build-scripts.md)
+    - [Cargo 外部工具](25-rust-build-advanced/25.1-cargo-advanced/25.1.6-external-tools.md)
+    - [Cargo 常见问题](25-rust-build-advanced/25.1-cargo-advanced/25.1.7-faq.md)
+- [Rust 模糊测试](26-rust-fuzz.md)
+  - [使用 fuzz 进行模糊测试](26-rust-fuzz/26.1-cargo-fuzz.md)
+  - [使用 afl.rs 进行模糊测试](26-rust-fuzz/26.2-afl-rs.md)
+- [书籍构建工具 mdBook](27-mdbook.md)
 
 ------
