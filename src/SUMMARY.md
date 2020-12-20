@@ -203,6 +203,8 @@
   - [硬件支持 crates 小结](17-hardware/17.2-hardware-crates.md)
 - [内存管理](18-mem.md)
   - [全局静态/全局堆栈](18-mem/18.1-global-static.md)
+    - [声明延迟计算常量](18-mem/18.1-global-static/18.1.1-lazy-constant.md)
+  - [内存管理 crates 小结](18-mem/18.2-mem-crates.md)
 - [网络](19-net.md)
   - [服务器](19-net/19.1-server.md)
 - [操作系统](20-os.md)
