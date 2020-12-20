@@ -199,6 +199,8 @@
   - [文件系统 crates 小结](16-file/16.3-file-crates.md)
 - [硬件支持](17-hardware.md)
   - [处理器](17-hardware/17.1-processor.md)
+    - [检查逻辑 cpu 内核的数量](17-hardware/17.1-processor/17.1.1-cpu-count.md)
+  - [硬件支持 crates 小结](17-hardware/17.2-hardware-crates.md)
 - [内存管理](18-mem.md)
   - [全局静态/全局堆栈](18-mem/18.1-global-static.md)
 - [网络](19-net.md)
