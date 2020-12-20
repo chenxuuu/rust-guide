@@ -1,0 +1,13 @@
+[package]
+name = "handle"
+version = "0.1.0"
+authors = ["zzy <9809920@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+csv = "1.1.5"
+error-chain = "0.12.4"
+reqwest = "0.10.10"
+serde = "1.0.118"
