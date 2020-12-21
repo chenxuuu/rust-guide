@@ -156,7 +156,7 @@
     - [将字符串编码为 application/x-www-form-urlencoded](14-encoding/14.1-strings/14.1.2-url-encode.md)
     - [编码和解码十六进制](14-encoding/14.1-strings/14.1.3-hex.md)
     - [编码和解码 base64](14-encoding/14.1-strings/14.1.4-base64.md)
-    - [字符集 crates 小结](14-encoding/14.1-strings/14.1.5-crates.md)
+    - [字符集 crates 小结](14-encoding/14.1-strings/14.1.5-strings-crates.md)
   - [CSV 处理](14-encoding/14.2-csv.md)
     - [读取 CSV 记录](14-encoding/14.2-csv/14.2.1-read.md)
     - [读取有不同分隔符的 CSV 记录](14-encoding/14.2-csv/14.2.2-delimiter.md)
