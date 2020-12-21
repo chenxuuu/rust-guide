@@ -7,3 +7,10 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+error-chain = "0.12.4"
+hyper = "0.13.9"
+reqwest = "0.10.10"
+serde = "1.0.118"
+serde_json = "1.0.60"
+tokio = "0.3.6"
+url = "2.2.0"
