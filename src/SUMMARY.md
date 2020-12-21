@@ -269,8 +269,18 @@
   - [电子邮件](23-web/23.4-email.md)
   - [客户端](23-web/23.5-clients.md)
     - [请求处理](23-web/23.5-clients/23.5.1-requests.md)
+      - [发出 HTTP GET 请求](23-web/23.5-clients/23.5.1-requests/23.5.1.1-get.md)
+      - [为 REST 请求设置自定义消息标头和 URL 参数](23-web/23.5-clients/23.5.1-requests/23.5.1.2-header.md)
     - [Web API 调用](23-web/23.5-clients/23.5.2-apis.md)
+      - [查询 GitHub API](23-web/23.5-clients/23.5.2-apis/23.5.2.1-rest-get.md)
+      - [检查 API 资源是否存在](23-web/23.5-clients/23.5.2-apis/23.5.2.2-rest-head.md)
+      - [使用 GitHub API 创建和删除 Gist](23-web/23.5-clients/23.5.2-apis/23.5.2.3-rest-post.md)
+      - [使用 RESTful API 分页](23-web/23.5-clients/23.5.2-apis/23.5.2.4-paginated.md)
+      - [处理速率受限 API](23-web/23.5-clients/23.5.2-apis/23.5.2.5-rate-limited.md)
     - [下载](23-web/23.5-clients/23.5.3-download.md)
+      - [下载文件到临时目录](23-web/23.5-clients/23.5.3-download/23.5.3.1-basic.md)
+      - [使用 HTTP range 请求头进行部分下载](23-web/23.5-clients/23.5.3-download/23.5.3.2-partial.md)
+      - [POST 文件到 paste-rs](23-web/23.5-clients/23.5.3-download/23.5.3.3-post-file.md)
     - [客户端 crates 小结](23-web/23.5-clients/23.5.4-clients-crates.md)
 
 ------
