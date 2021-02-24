@@ -5,9 +5,9 @@ struct Person {
 }
 
 impl Person {
-    pub fn new(name: String, age: u32) -> Self {
+    pub fn new(name: &str, age: u32) -> Self {
         Person {
-            name,
+            name: name.to_string(),
             age
         }
     }
@@ -15,9 +15,9 @@ impl Person {
 
 fn main() {
     let mut people = vec![
-        Person::new("Zhang".to_string(), 25),
-        Person::new("Liu".to_string(), 60),
-        Person::new("Wang".to_string(), 1),
+        Person::new("Zhang", 25),
+        Person::new("Liu", 60),
+        Person::new("Wang", 1),
     ];
     println!("  排序前： {:?}", people);
 
@@ -28,9 +28,9 @@ fn main() {
     assert_eq!(
         people,
         vec![
-            Person::new("Liu".to_string(), 60),
-            Person::new("Wang".to_string(), 1),
-            Person::new("Zhang".to_string(), 25),
+            Person::new("Liu", 60),
+            Person::new("Wang", 1),
+            Person::new("Zhang", 25),
         ]);
 
     // 根据 age 值对 people 进行排序
@@ -40,9 +40,9 @@ fn main() {
     assert_eq!(
         people,
         vec![
-            Person::new("Liu".to_string(), 60),
-            Person::new("Zhang".to_string(), 25),
-            Person::new("Wang".to_string(), 1),
+            Person::new("Liu", 60),
+            Person::new("Zhang", 25),
+            Person::new("Wang", 1),
         ]);
 
 }
