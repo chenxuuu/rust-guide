@@ -9,7 +9,7 @@ fn main() {
 
     let password: String = (0..PASSWORD_LEN)
         .map(|_| {
-            let idx = rng.gen_range(0, CHARSET.len()); // 半开放范围取随机值，即包括`低位`而不包括`高位`
+            let idx = rng.gen_range(0..CHARSET.len()); // 半开放范围取随机值，即包括`低位`而不包括`高位`
             CHARSET[idx] as char
         })
         .collect();
